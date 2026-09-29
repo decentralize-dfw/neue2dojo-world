@@ -1,4 +1,7 @@
 {
   "site": "https://decentralize-dfw.github.io/neue2dojo-world/",
-  "worlds": ["neue2dojo"]
+  "worlds": [
+    "neue2dojo",
+    "dfw"
+  ]
 }
