@@ -12,6 +12,21 @@ All of DFW's copied worlds are listed in [theaters/WORLDS.md](https://github.com
 
 This repository uses the same tools as [decentralize-dfw/theaters](https://github.com/decentralize-dfw/theaters); its README describes them in full. The GitHub Pages site runs each world entirely in the browser, with Hyperfy's own client and game server (npm packages `hyperfy-client`, `hyperfy-server`, `hyperfy-api`, `hyperfy-router` 2.40.0, MIT). Each world folder holds every file its world uses, stored under the same paths it has on Hyperfy's servers, plus `manifest.json` (every mirrored file with its source URL, size and sha256) and `world.json`.
 
+## The neue2dojo.com site (`web/`)
+
+`web/` is the museum site Neue² Dojo used at neue2dojo.com, later https://yigitozen8.wixsite.com/website-2, rebuilt as plain HTML by `tools/wix_rebuild.mjs`.
+
+- **Pages:** the home page and every page linked from its menus. The members-only pages *ownership* and *membership* could not be copied (HTTP 403).
+- **Content:** each page keeps its texts, images, boxes, lines and menus in the same places and styles.
+- **No Wix code:** the pages carry no Wix scripts, styles or banner.
+- **Media:** only images and fonts come from Wix, downloaded into `web/media/` and `web/fonts/`.
+- **Address:** https://xrweb.studio/neue2dojo-world/web/
+
+```sh
+node tools/wix_rebuild.mjs https://yigitozen8.wixsite.com/website-2 web
+ONLY=design,c1 node tools/wix_rebuild.mjs https://yigitozen8.wixsite.com/website-2 web   # just these pages
+```
+
 ## Adding a world
 
 Requires Python 3 and Node.js 18 or newer:
