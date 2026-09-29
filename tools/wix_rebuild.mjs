@@ -57,7 +57,13 @@ function extractPage() {
   const visible = e => {
     if (e.checkVisibility && !e.checkVisibility({ opacityProperty: true, visibilityProperty: true })) return false
     const r = e.getBoundingClientRect()
-    return r.width >= 1 && r.height >= 1
+    if (r.width < 1 || r.height < 1) return false
+    // Visually hidden text for screen readers ("top of page", ...).
+    for (let a = e, n = 0; a && n < 4; a = a.parentElement, n++) {
+      const acs = getComputedStyle(a)
+      if (/rect\(0(px)?,? 0(px)?,? 0(px)?,? 0(px)?\)/.test(acs.clip) || /inset\(50%\)/.test(acs.clipPath)) return false
+    }
+    return true
   }
   const transparent = c => !c || c === 'transparent' || /rgba\([^)]*,\s*0\)$/.test(c)
   const styleOf = (cs, props) => props.map(p => `${p}:${cs.getPropertyValue(p)}`).join(';')
@@ -104,7 +110,11 @@ function extractPage() {
       for (const attr of [...c.attributes]) if (!KEEP_ATTRS.includes(attr.name)) c.removeAttribute(attr.name)
       if (i === 0) return
       const block = /^(block|list-item|flex|grid|table)/.test(cs.display)
-      c.setAttribute('style', styleOf(cs, block ? [...TEXT, ...BLOCK] : TEXT))
+      let style = styleOf(cs, block ? [...TEXT, ...BLOCK] : TEXT)
+      // A link Wix leaves unstyled shows in the text's own colour, not the
+      // browser's default link blue.
+      if (o.tagName === 'A' && cs.color === 'rgb(0, 0, 238)') style = style.replace(/(^|;)color:[^;]*/, `$1color:${getComputedStyle(o.parentElement).color}`)
+      c.setAttribute('style', style)
     })
     clone.querySelectorAll('script, style, noscript').forEach(e => e.remove())
     return { html: clone.innerHTML, style: styleOf(getComputedStyle(root), [...TEXT, 'padding-top', 'padding-bottom', 'padding-left', 'padding-right']) }
