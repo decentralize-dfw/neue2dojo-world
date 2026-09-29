@@ -2,7 +2,7 @@
 
 | Folder | World | Live copy |
 | --- | --- | --- |
-| `c2w/` | **[hyperfy.io/c2w](https://hyperfy.io/c2w)**: C2W VIRTUAL RUNWAY (`world-1871`) | https://decentralize-dfw.github.io/runways/c2w/ |
+| `neue2dojo/` | **[hyperfy.io/neue2dojo](https://hyperfy.io/neue2dojo)**: Neue² Dojo Gallery (`world-1194`) | https://decentralize-dfw.github.io/neue2dojo-world/neue2dojo/ |
 
 The site's root, https://decentralize-dfw.github.io/neue2dojo-world/, opens Neue² Dojo.
 
