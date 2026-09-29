@@ -4,6 +4,7 @@
 | --- | --- | --- |
 | `neue2dojo/` | **[hyperfy.io/neue2dojo](https://hyperfy.io/neue2dojo)**: Neue² Dojo Gallery (`world-1194`) | https://decentralize-dfw.github.io/neue2dojo-world/neue2dojo/ |
 | `dfw/` | **[hyperfy.io/dfw](https://hyperfy.io/dfw)**: element / design / store (`world-288`) | https://decentralize-dfw.github.io/neue2dojo-world/dfw/ |
+| `scaffold/` | **[hyperfy.io/scaffold](https://hyperfy.io/scaffold)**: Architecture Works DFW (`world-1850`) | https://decentralize-dfw.github.io/neue2dojo-world/scaffold/ |
 
 The site's root, https://decentralize-dfw.github.io/neue2dojo-world/, opens Neue² Dojo.
 
@@ -23,7 +24,7 @@ echo '{"modes": []}' > <folder>/site.json
 npm run build:pages
 ```
 
-GitHub Pages sites are limited to 1 GB. With Neue² Dojo and element / design / store the site takes about 530 MB.
+GitHub Pages sites are limited to 1 GB. With its three worlds the site takes about 720 MB.
 
 ## Running a world with Node
 
