@@ -1,0 +1,30 @@
+{
+  "name": "neue2dojo-world",
+  "private": true,
+  "description": "hyperfy.io/pill (Why We Exist? Virtual Theater), self-hosted with Hyperfy's own engine",
+  "scripts": {
+    "start": "node server/start.js",
+    "mirror": "python3 tools/hyperfy_mirror.py",
+    "build:pages": "node tools/build_pages.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.10.0",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "hyperfy-api": "2.40.0",
+    "hyperfy-client": "2.40.0",
+    "hyperfy-router": "2.40.0",
+    "hyperfy-server": "2.40.0",
+    "hyperfy-utils": "2.40.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "overrides": {
+    "better-sqlite3": "^11.10.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.0"
+  }
+}

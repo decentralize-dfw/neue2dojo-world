@@ -1,0 +1,4422 @@
+{
+  "generatedAt": "2026-09-29T08:06:34+00:00",
+  "generator": "tools/hyperfy_mirror.py",
+  "world": {
+    "id": "world-1194",
+    "slug": "neue2dojo",
+    "title": "Neue² Dojo Gallery",
+    "description": null,
+    "ownerId": "WY0pilWNMhuROO5JYYwIo",
+    "updatedAt": "2025-01-24T19:00:09.414Z",
+    "entityCount": 228,
+    "record": "api.hyperfy.io/worlds/world-1194.json",
+    "scene": "world.json"
+  },
+  "summary": {
+    "files": 223,
+    "bytes": 319756085,
+    "status": {
+      "ok": 223
+    },
+    "byKind": {
+      "avatar": {
+        "files": 4,
+        "bytes": 8648712
+      },
+      "model": {
+        "files": 110,
+        "bytes": 70805572
+      },
+      "texture": {
+        "files": 52,
+        "bytes": 11933642
+      },
+      "script": {
+        "files": 28,
+        "bytes": 74234
+      },
+      "environment": {
+        "files": 2,
+        "bytes": 3872190
+      },
+      "video": {
+        "files": 7,
+        "bytes": 186392105
+      },
+      "audio": {
+        "files": 16,
+        "bytes": 37813778
+      },
+      "other": {
+        "files": 4,
+        "bytes": 215852
+      }
+    }
+  },
+  "files": [
+    {
+      "path": "data.hyperfy.xyz/avatars/1b946668631690ae2df4c6fa36d93fd7fdb9f56a7e6948ab68ee83f7a0d1aec6.vrm",
+      "url": "https://data.hyperfy.xyz/avatars/1b946668631690ae2df4c6fa36d93fd7fdb9f56a7e6948ab68ee83f7a0d1aec6.vrm",
+      "kind": "avatar",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 2613852,
+      "sha256": "1b946668631690ae2df4c6fa36d93fd7fdb9f56a7e6948ab68ee83f7a0d1aec6",
+      "contentType": "application/octet-stream",
+      "names": [
+        "HEXMUTT.vrm"
+      ],
+      "referencedBy": [
+        {
+          "uid": "3WrrPASWU59Cig0DcZF3h",
+          "component": "hyperfy-npc",
+          "field": "$fields.vrm"
+        },
+        {
+          "uid": "xms2pRoLXGmuzk0tnUlV2",
+          "component": "hyperfy-npc",
+          "field": "$fields.vrm"
+        },
+        {
+          "uid": "AFS6sjOyJhoCwj78SQxs5",
+          "component": "hyperfy-npc",
+          "field": "$fields.vrm"
+        },
+        {
+          "uid": "IsxoL7MCK791Lda8HCUVS",
+          "component": "hyperfy-npc",
+          "field": "$fields.vrm"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/avatars/eb7107a92b03f5e1de6f0d5e4fdaf909c1ce26a198e84822d6bf39cca21d2d8b.vrm",
+      "url": "https://data.hyperfy.xyz/avatars/eb7107a92b03f5e1de6f0d5e4fdaf909c1ce26a198e84822d6bf39cca21d2d8b.vrm",
+      "kind": "avatar",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 1191080,
+      "sha256": "eb7107a92b03f5e1de6f0d5e4fdaf909c1ce26a198e84822d6bf39cca21d2d8b",
+      "contentType": "application/octet-stream",
+      "names": [
+        "neuedojocirator.vrm"
+      ],
+      "referencedBy": [
+        {
+          "uid": "l4qU7KCBxCowTosP7A5gz",
+          "component": "hyperfy-npc",
+          "field": "$fields.vrm"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/basic-emotes/v11/assets/cheer.glb",
+      "url": "https://data.hyperfy.xyz/components/basic-emotes/v11/assets/cheer.glb",
+      "kind": "model",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 67272,
+      "sha256": "930040910cff7d172218a6251cb091f5be62c42b0b4c3cf9f051a1793101ce6f",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "file": "data.hyperfy.xyz/components/basic-emotes/v11/index.js",
+          "field": "literal"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/basic-emotes/v11/assets/clap.glb",
+      "url": "https://data.hyperfy.xyz/components/basic-emotes/v11/assets/clap.glb",
+      "kind": "model",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 61416,
+      "sha256": "c5eba5c9c158b4a5e814c0aecabb9b106abd8e5baf9f0ba56b2b6aeffa6d4c46",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "file": "data.hyperfy.xyz/components/basic-emotes/v11/index.js",
+          "field": "literal"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/basic-emotes/v11/assets/dance.glb",
+      "url": "https://data.hyperfy.xyz/components/basic-emotes/v11/assets/dance.glb",
+      "kind": "model",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 77680,
+      "sha256": "f2d343d9392fe2b3ab9861a439d7a65970a0a7b911c6c2f072963d62abdc3581",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "file": "data.hyperfy.xyz/components/basic-emotes/v11/index.js",
+          "field": "literal"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/basic-emotes/v11/assets/dance2.glb",
+      "url": "https://data.hyperfy.xyz/components/basic-emotes/v11/assets/dance2.glb",
+      "kind": "model",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 170188,
+      "sha256": "9b55dac6a82f41cb61631b3e8c84607dcf0ff9a48d38639bc9c8715fdb15ea55",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "file": "data.hyperfy.xyz/components/basic-emotes/v11/index.js",
+          "field": "literal"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/basic-emotes/v11/assets/image.png",
+      "url": "https://data.hyperfy.xyz/components/basic-emotes/v11/assets/image.png",
+      "kind": "texture",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 3399,
+      "sha256": "6b411132f9622ca5dccecd89faa2d673230879c8d593833ec3908cefcaddef6a",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "basic-emotes",
+          "version": 11,
+          "field": "image"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/basic-emotes/v11/assets/kneel.glb",
+      "url": "https://data.hyperfy.xyz/components/basic-emotes/v11/assets/kneel.glb",
+      "kind": "model",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 87692,
+      "sha256": "1f815ecef171c45401edb36f37b87b33b2078c94d20a9ed43dde61f679cf50b9",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "file": "data.hyperfy.xyz/components/basic-emotes/v11/index.js",
+          "field": "literal"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/basic-emotes/v11/assets/pray.glb",
+      "url": "https://data.hyperfy.xyz/components/basic-emotes/v11/assets/pray.glb",
+      "kind": "model",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 67192,
+      "sha256": "739173a2d29ca3a686d434c8eb82370b5b224b2410c8fd1829a87cd1ab550c09",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "file": "data.hyperfy.xyz/components/basic-emotes/v11/index.js",
+          "field": "literal"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/basic-emotes/v11/assets/sit.glb",
+      "url": "https://data.hyperfy.xyz/components/basic-emotes/v11/assets/sit.glb",
+      "kind": "model",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 58476,
+      "sha256": "43aa6ecfccf3a111926b31a1865bc5875d22c9c54c7d3ad501aeb829082e7a08",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "file": "data.hyperfy.xyz/components/basic-emotes/v11/index.js",
+          "field": "literal"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/basic-emotes/v11/assets/stretch.glb",
+      "url": "https://data.hyperfy.xyz/components/basic-emotes/v11/assets/stretch.glb",
+      "kind": "model",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 118304,
+      "sha256": "3cb86aea9361ca9c73416ffa6c519bb7be115f129994f79be3e3780f945308f8",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "file": "data.hyperfy.xyz/components/basic-emotes/v11/index.js",
+          "field": "literal"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/basic-emotes/v11/assets/wave.glb",
+      "url": "https://data.hyperfy.xyz/components/basic-emotes/v11/assets/wave.glb",
+      "kind": "model",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 69760,
+      "sha256": "2e7dbb54117a5dc83362ae7df4e2909607a62cd3abddd8abb9c8d873c5941a4b",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "file": "data.hyperfy.xyz/components/basic-emotes/v11/index.js",
+          "field": "literal"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/basic-emotes/v11/index.js",
+      "url": "https://data.hyperfy.xyz/components/basic-emotes/v11/index.js",
+      "kind": "script",
+      "group": "component",
+      "required": true,
+      "status": "ok",
+      "bytes": 731,
+      "sha256": "824b529a4d774881c07497d85c21a470c7f9e1932f462ed5aeafe96a24ed0fa4",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "basic-emotes",
+          "version": 11
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-audio/v8/assets/block.glb",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-audio/v8/assets/block.glb",
+      "kind": "model",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 11340,
+      "sha256": "7e0c4f0fd258b83e41d890a0744475f9866bbda98793f7c18c316a52a3a0ba00",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "file": "data.hyperfy.xyz/components/hyperfy-audio/v8/index.js",
+          "field": "literal"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-audio/v8/assets/image.png",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-audio/v8/assets/image.png",
+      "kind": "texture",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 2237,
+      "sha256": "a71f503dd2b31aca5d368c3478c44399be149d8effedc44f451cfa7c2d8bdce9",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-audio",
+          "version": 8,
+          "field": "image"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-audio/v8/index.js",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-audio/v8/index.js",
+      "kind": "script",
+      "group": "component",
+      "required": true,
+      "status": "ok",
+      "bytes": 2979,
+      "sha256": "a82840db0f02fb53bbc3e280366a733ea3e125ea470aedfae0108363bd9c2c0b",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-audio",
+          "version": 8
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-audio/v9/assets/block.glb",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-audio/v9/assets/block.glb",
+      "kind": "model",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 11340,
+      "sha256": "7e0c4f0fd258b83e41d890a0744475f9866bbda98793f7c18c316a52a3a0ba00",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "file": "data.hyperfy.xyz/components/hyperfy-audio/v9/index.js",
+          "field": "literal"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-audio/v9/assets/image.png",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-audio/v9/assets/image.png",
+      "kind": "texture",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 2237,
+      "sha256": "a71f503dd2b31aca5d368c3478c44399be149d8effedc44f451cfa7c2d8bdce9",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-audio",
+          "version": 9,
+          "field": "image"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-audio/v9/index.js",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-audio/v9/index.js",
+      "kind": "script",
+      "group": "component",
+      "required": true,
+      "status": "ok",
+      "bytes": 3109,
+      "sha256": "a0829d32889b83ddfde4b4fdd345890d9ee3c97d184506d19840736b770bfaf7",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-audio",
+          "version": 9
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-avatar/v4/index.js",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-avatar/v4/index.js",
+      "kind": "script",
+      "group": "runtime",
+      "required": true,
+      "status": "ok",
+      "bytes": 714,
+      "sha256": "4d3c5bf56aef705ac43906203f1e405db8ac2d0abdfa9aa37a8ff2f399e50f3b",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-avatar",
+          "version": 4
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-camera/v5/assets/block.glb",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-camera/v5/assets/block.glb",
+      "kind": "model",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 131684,
+      "sha256": "0787b90fd3a24b7892ba5b0e2b30b74d735ece33a65072ec2508dbe5238b20fa",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "file": "data.hyperfy.xyz/components/hyperfy-camera/v5/index.js",
+          "field": "literal"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-camera/v5/assets/image.png",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-camera/v5/assets/image.png",
+      "kind": "texture",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 2229,
+      "sha256": "185afc72d578e7841210847e8cd13d2ae6f581a57ae02d7cd87a7cf56d0a7232",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-camera",
+          "version": 5,
+          "field": "image"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-camera/v5/index.js",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-camera/v5/index.js",
+      "kind": "script",
+      "group": "component",
+      "required": true,
+      "status": "ok",
+      "bytes": 1307,
+      "sha256": "300885c3590f4f8c034302a47c6dd8679521ee2fdbec76d2255d056cf38f99c1",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-camera",
+          "version": 5
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-command/v1/assets/image.png",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-command/v1/assets/image.png",
+      "kind": "texture",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 1535,
+      "sha256": "5c65525380410cd4a060111be0b85120f42f389ca3d92ec886afb97b1e633e3c",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-command",
+          "version": 1,
+          "field": "image"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-command/v1/index.js",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-command/v1/index.js",
+      "kind": "script",
+      "group": "component",
+      "required": true,
+      "status": "ok",
+      "bytes": 784,
+      "sha256": "91934393eaae5904e6d27a0dcee0fcb9a2242615a6e2731fddbc0c883f15dd19",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-command",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-effects/v3/assets/image.png",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-effects/v3/assets/image.png",
+      "kind": "texture",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 2991,
+      "sha256": "e2194fdd87e7a23523f6f714785ddc372d31c7726b61891b4132c13699a8d187",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-effects",
+          "version": 3,
+          "field": "image"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-effects/v3/index.js",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-effects/v3/index.js",
+      "kind": "script",
+      "group": "component",
+      "required": true,
+      "status": "ok",
+      "bytes": 1130,
+      "sha256": "80359cc595a5217a799ef532dab225c821370eb8be818bb564bc2281f9ca0c1a",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-effects",
+          "version": 3
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-emote/v1/assets/image.png",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-emote/v1/assets/image.png",
+      "kind": "texture",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 4033,
+      "sha256": "aadde1a51b7a9ec8f6f6924cbcb8052e4c84bd6f0a9074d438db5c4ff912901c",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-emote",
+          "version": 1,
+          "field": "image"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-emote/v1/index.js",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-emote/v1/index.js",
+      "kind": "script",
+      "group": "component",
+      "required": true,
+      "status": "ok",
+      "bytes": 969,
+      "sha256": "2ce2a77d08b3aa27065e01a56d46f2f40dbb2562ee91c113be870d7249b00e67",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-emote",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-image/v2/assets/blank-image.png",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-image/v2/assets/blank-image.png",
+      "kind": "texture",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 3958,
+      "sha256": "d7238ea24279f73c875a7e7cc2b4da1e207bc544507fbb5850fc86f38ca01fc3",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "file": "data.hyperfy.xyz/components/hyperfy-image/v2/index.js",
+          "field": "literal"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-image/v2/assets/image.png",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-image/v2/assets/image.png",
+      "kind": "texture",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 1733,
+      "sha256": "2ef530745b390171f66371734617bf141a90966a99639a8bae9e1a3c8d592da5",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-image",
+          "version": 2,
+          "field": "image"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-image/v2/index.js",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-image/v2/index.js",
+      "kind": "script",
+      "group": "component",
+      "required": true,
+      "status": "ok",
+      "bytes": 3003,
+      "sha256": "885b7c93c54309f4a7de9249204987aeca8f745dd3b65c910117e8b58e0ae368",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-image",
+          "version": 2
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-image/v6/assets/blank-image.png",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-image/v6/assets/blank-image.png",
+      "kind": "texture",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 3958,
+      "sha256": "d7238ea24279f73c875a7e7cc2b4da1e207bc544507fbb5850fc86f38ca01fc3",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "file": "data.hyperfy.xyz/components/hyperfy-image/v6/index.js",
+          "field": "literal"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-image/v6/assets/image.png",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-image/v6/assets/image.png",
+      "kind": "texture",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 1733,
+      "sha256": "2ef530745b390171f66371734617bf141a90966a99639a8bae9e1a3c8d592da5",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-image",
+          "version": 6,
+          "field": "image"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-image/v6/index.js",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-image/v6/index.js",
+      "kind": "script",
+      "group": "component",
+      "required": true,
+      "status": "ok",
+      "bytes": 2548,
+      "sha256": "38d7a3a88b08ffab02e4fc38bfde26b3d9945753ad0337eb72c7773f04a50a21",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-image",
+          "version": 6
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-keypad/v1/assets/backspace.png",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-keypad/v1/assets/backspace.png",
+      "kind": "texture",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 917,
+      "sha256": "b6d4e62721ddc9bba241c71c969e8075bb7b8b84fa320c838ebc4996031bbd7c",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "file": "data.hyperfy.xyz/components/hyperfy-keypad/v1/index.js",
+          "field": "literal"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-keypad/v1/assets/image.png",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-keypad/v1/assets/image.png",
+      "kind": "texture",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 2579,
+      "sha256": "ed947fad8031b22905e237d7b692762423deb760ff68179eac91cd4e90e9e1b8",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-keypad",
+          "version": 1,
+          "field": "image"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-keypad/v1/index.js",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-keypad/v1/index.js",
+      "kind": "script",
+      "group": "component",
+      "required": true,
+      "status": "ok",
+      "bytes": 4302,
+      "sha256": "cdc4e51ca549104a756b64e6cd7ea92c65b76055732d9430fe3c017bb70e00cb",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-keypad",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-model/v2/assets/block-model.glb",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-model/v2/assets/block-model.glb",
+      "kind": "model",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 9716,
+      "sha256": "ad4021e9894555e7dae66d981fdad79e9117c933163fb9ba13983365cc19f8ac",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "file": "data.hyperfy.xyz/components/hyperfy-model/v2/index.js",
+          "field": "literal"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-model/v2/assets/image.png",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-model/v2/assets/image.png",
+      "kind": "texture",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 2412,
+      "sha256": "ec426f4d4f1568a2d0ba02484e62da85710f35f8a7ce540ea5052a6188f53ba1",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-model",
+          "version": 2,
+          "field": "image"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-model/v2/index.js",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-model/v2/index.js",
+      "kind": "script",
+      "group": "component",
+      "required": true,
+      "status": "ok",
+      "bytes": 2616,
+      "sha256": "59a3032eddca0c76e47f3921dab7622aef3a9507c3c1242f0c8046cdff39f7ee",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-model",
+          "version": 2
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-model/v4/assets/block-model.glb",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-model/v4/assets/block-model.glb",
+      "kind": "model",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 9716,
+      "sha256": "ad4021e9894555e7dae66d981fdad79e9117c933163fb9ba13983365cc19f8ac",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "file": "data.hyperfy.xyz/components/hyperfy-model/v4/index.js",
+          "field": "literal"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-model/v4/assets/image.png",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-model/v4/assets/image.png",
+      "kind": "texture",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 2412,
+      "sha256": "ec426f4d4f1568a2d0ba02484e62da85710f35f8a7ce540ea5052a6188f53ba1",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-model",
+          "version": 4,
+          "field": "image"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-model/v4/index.js",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-model/v4/index.js",
+      "kind": "script",
+      "group": "component",
+      "required": true,
+      "status": "ok",
+      "bytes": 1947,
+      "sha256": "4e671afdd7c74400eaa14e05bc50dedc1c147013949f38d5e7c2f8279b1aead7",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-model",
+          "version": 4
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-npc/v13/assets/dialog-accept.png",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-npc/v13/assets/dialog-accept.png",
+      "kind": "texture",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 1743,
+      "sha256": "d28289e778d73e1879d4a845b21ae6244018d9e572b042873863b85c091d2f65",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "file": "data.hyperfy.xyz/components/hyperfy-npc/v13/index.js",
+          "field": "literal"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-npc/v13/assets/dialog-back.png",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-npc/v13/assets/dialog-back.png",
+      "kind": "texture",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 1497,
+      "sha256": "00c822b3d95f9af81cb7c09ac0225f96cab311e27faec77ed07af6ab44a645e2",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "file": "data.hyperfy.xyz/components/hyperfy-npc/v13/index.js",
+          "field": "literal"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-npc/v13/assets/dialog-complete.png",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-npc/v13/assets/dialog-complete.png",
+      "kind": "texture",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 1905,
+      "sha256": "103dc82dcc9f43f69871c65a93c82dc78236cfad4316e7c6315ea406b20c1501",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "file": "data.hyperfy.xyz/components/hyperfy-npc/v13/index.js",
+          "field": "literal"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-npc/v13/assets/dialog-message.png",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-npc/v13/assets/dialog-message.png",
+      "kind": "texture",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 1567,
+      "sha256": "7d615f3fd6551b5b39de39f9cc1778fc48c84a4ff511aebda709932ab886a1e8",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "file": "data.hyperfy.xyz/components/hyperfy-npc/v13/index.js",
+          "field": "literal"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-npc/v13/assets/dialog-quest-new.png",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-npc/v13/assets/dialog-quest-new.png",
+      "kind": "texture",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 880,
+      "sha256": "94331a9d732c7ad2e955f2ba671d0492170b7c41848bcd60358e7468d922b782",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "file": "data.hyperfy.xyz/components/hyperfy-npc/v13/index.js",
+          "field": "literal"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-npc/v13/assets/dialog-quest-progress.png",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-npc/v13/assets/dialog-quest-progress.png",
+      "kind": "texture",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 1483,
+      "sha256": "277064017e87e3adc317e913a3c693a74e461e95d1750599859ce44daf9c6eb9",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "file": "data.hyperfy.xyz/components/hyperfy-npc/v13/index.js",
+          "field": "literal"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-npc/v13/assets/dialog-quest-ready.png",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-npc/v13/assets/dialog-quest-ready.png",
+      "kind": "texture",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 1631,
+      "sha256": "e15d7fcbd8d093394f10a0157da7dd05adf44c87a9c9bbf116e9bbcc0a3b883f",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "file": "data.hyperfy.xyz/components/hyperfy-npc/v13/index.js",
+          "field": "literal"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-npc/v13/assets/image.png",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-npc/v13/assets/image.png",
+      "kind": "texture",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 3696,
+      "sha256": "3c771119bd7172987d57e3e28331760b2ad6db08baeddcc947b03d01a64298e7",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-npc",
+          "version": 13,
+          "field": "image"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-npc/v13/index.js",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-npc/v13/index.js",
+      "kind": "script",
+      "group": "component",
+      "required": true,
+      "status": "ok",
+      "bytes": 6216,
+      "sha256": "aadbe5348b901025403247c7105e845891139eca89abe9296c545782f7b4cbda",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-npc",
+          "version": 13
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-particles/v3/assets/image.png",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-particles/v3/assets/image.png",
+      "kind": "texture",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 3002,
+      "sha256": "103a1e1dd91cb43f8008a67082521a4020e9a4a2bf89e6ceb78db6cc376d395c",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-particles",
+          "version": 3,
+          "field": "image"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-particles/v3/index.js",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-particles/v3/index.js",
+      "kind": "script",
+      "group": "component",
+      "required": true,
+      "status": "ok",
+      "bytes": 10412,
+      "sha256": "63c00841477091c69448d4eb08357ec02fb1ff3eb04b1bdbdf98f45e7e1cc763",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-particles",
+          "version": 3
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-place/v1/assets/image.png",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-place/v1/assets/image.png",
+      "kind": "texture",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 2780,
+      "sha256": "2325e0ecb0322637f9f2cb6678ae2d551c40f2f04e1be677480512e6e2d120f6",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-place",
+          "version": 1,
+          "field": "image"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-place/v1/assets/place.glb",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-place/v1/assets/place.glb",
+      "kind": "model",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 11072,
+      "sha256": "8ac80ac0e4722dad5e9619f29d7c74ca1a0353b21ce996bd9fb2ca35263d03af",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "file": "data.hyperfy.xyz/components/hyperfy-place/v1/index.js",
+          "field": "literal"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-place/v1/index.js",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-place/v1/index.js",
+      "kind": "script",
+      "group": "component",
+      "required": true,
+      "status": "ok",
+      "bytes": 1065,
+      "sha256": "eecf51677d22695c5cf0373591106a8d462d7d53701cef269c419e7d22910420",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-place",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-receiver/v7/assets/block.glb",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-receiver/v7/assets/block.glb",
+      "kind": "model",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 4296,
+      "sha256": "ce034d9542a14c8c05c7271141918b089f2d9648a174d4e2b2b32ff6744b359e",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "file": "data.hyperfy.xyz/components/hyperfy-receiver/v7/index.js",
+          "field": "literal"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-receiver/v7/assets/image.png",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-receiver/v7/assets/image.png",
+      "kind": "texture",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 1766,
+      "sha256": "6d63915d926b79c9dcf76713b81f63810a0f8b602a012c4076a2f1e7c56751c8",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-receiver",
+          "version": 7,
+          "field": "image"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-receiver/v7/index.js",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-receiver/v7/index.js",
+      "kind": "script",
+      "group": "component",
+      "required": true,
+      "status": "ok",
+      "bytes": 1207,
+      "sha256": "1fc0c7f4f372231a6aeddb532075b055af870a4d16d2f387d9f87c99ccff8e30",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-receiver",
+          "version": 7
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-seat/v4/assets/Sitting Idle.glb",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-seat/v4/assets/Sitting%20Idle.glb",
+      "kind": "model",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 73448,
+      "sha256": "63999142c9572008ce6a6260c5577e88a0182c8405793fab0e64a66e763b0b0b",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "file": "data.hyperfy.xyz/components/hyperfy-seat/v4/index.js",
+          "field": "literal"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-seat/v4/assets/block-invisible.glb",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-seat/v4/assets/block-invisible.glb",
+      "kind": "model",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 4068,
+      "sha256": "cacee5681ae70f66df5c860db4986bad2836728593216d9d082a4399fc802cfb",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "file": "data.hyperfy.xyz/components/hyperfy-seat/v4/index.js",
+          "field": "literal"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-seat/v4/assets/block.glb",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-seat/v4/assets/block.glb",
+      "kind": "model",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 7000,
+      "sha256": "b80d0c145cfdbc8af1d226b2ae6a858130a6300a135001ea124b0e6f3f50730d",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "file": "data.hyperfy.xyz/components/hyperfy-seat/v4/index.js",
+          "field": "literal"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-seat/v4/assets/image.png",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-seat/v4/assets/image.png",
+      "kind": "texture",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 2498,
+      "sha256": "64658fd57c7fcdc37911af7e8f2d2c7b8d8e32c4d94857fd7aca902b8133f76e",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-seat",
+          "version": 4,
+          "field": "image"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-seat/v4/index.js",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-seat/v4/index.js",
+      "kind": "script",
+      "group": "component",
+      "required": true,
+      "status": "ok",
+      "bytes": 1221,
+      "sha256": "1ccbe560ff0108b533941d6e48c4aaf1a6ff885ad6814bbad814968faf0046f8",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-seat",
+          "version": 4
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-seat/v8/assets/Sitting Idle.glb",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-seat/v8/assets/Sitting%20Idle.glb",
+      "kind": "model",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 73448,
+      "sha256": "63999142c9572008ce6a6260c5577e88a0182c8405793fab0e64a66e763b0b0b",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "file": "data.hyperfy.xyz/components/hyperfy-seat/v8/index.js",
+          "field": "literal"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-seat/v8/assets/block-invisible.glb",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-seat/v8/assets/block-invisible.glb",
+      "kind": "model",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 4068,
+      "sha256": "cacee5681ae70f66df5c860db4986bad2836728593216d9d082a4399fc802cfb",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "file": "data.hyperfy.xyz/components/hyperfy-seat/v8/index.js",
+          "field": "literal"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-seat/v8/assets/block.glb",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-seat/v8/assets/block.glb",
+      "kind": "model",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 7000,
+      "sha256": "b80d0c145cfdbc8af1d226b2ae6a858130a6300a135001ea124b0e6f3f50730d",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "file": "data.hyperfy.xyz/components/hyperfy-seat/v8/index.js",
+          "field": "literal"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-seat/v8/assets/image.png",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-seat/v8/assets/image.png",
+      "kind": "texture",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 2498,
+      "sha256": "64658fd57c7fcdc37911af7e8f2d2c7b8d8e32c4d94857fd7aca902b8133f76e",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-seat",
+          "version": 8,
+          "field": "image"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-seat/v8/index.js",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-seat/v8/index.js",
+      "kind": "script",
+      "group": "component",
+      "required": true,
+      "status": "ok",
+      "bytes": 1295,
+      "sha256": "dc83a08e90d0ef61503c3733dc100f4a1d818153ae2e66ee5ae57a039c801491",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-seat",
+          "version": 8
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-sky/v5/assets/image.png",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-sky/v5/assets/image.png",
+      "kind": "texture",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 3150,
+      "sha256": "eb17b9d26d83dafecb4c0d979f1e2a84b6127b53ba400e95a6c7163e67b6f59d",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-sky",
+          "version": 5,
+          "field": "image"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-sky/v5/index.js",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-sky/v5/index.js",
+      "kind": "script",
+      "group": "component",
+      "required": true,
+      "status": "ok",
+      "bytes": 2329,
+      "sha256": "cb89e8a14d19fc3f1f7b0940ba3217bd3c32ac536a0bf1306132a96b459c5873",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-sky",
+          "version": 5
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-smart-object/v3/assets/image.png",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-smart-object/v3/assets/image.png",
+      "kind": "texture",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 2022,
+      "sha256": "644c8da510d0b48b7cba7488792f26ed7e65c0fb013edef01f651bbcb306924c",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-smart-object",
+          "version": 3,
+          "field": "image"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-smart-object/v3/index.js",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-smart-object/v3/index.js",
+      "kind": "script",
+      "group": "component",
+      "required": true,
+      "status": "ok",
+      "bytes": 5213,
+      "sha256": "30808149fb89c74f77679434dae4992e8fc59aaa5ef8b511bbba76a4c0a61fab",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-smart-object",
+          "version": 3
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-spawn/v1/assets/image.png",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-spawn/v1/assets/image.png",
+      "kind": "texture",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 3622,
+      "sha256": "5aafffaa4931a956b991f2849c02fd83ae198c7c2d9cdc44f01370437efe6449",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-spawn",
+          "version": 1,
+          "field": "image"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-spawn/v1/assets/spawn-block.glb",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-spawn/v1/assets/spawn-block.glb",
+      "kind": "model",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 9732,
+      "sha256": "0111be795cab208a3e59baf52e47a9fbf961047c17ba20e65bf77f6ff9a697ec",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "file": "data.hyperfy.xyz/components/hyperfy-spawn/v1/index.js",
+          "field": "literal"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-spawn/v1/index.js",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-spawn/v1/index.js",
+      "kind": "script",
+      "group": "component",
+      "required": true,
+      "status": "ok",
+      "bytes": 685,
+      "sha256": "793387a6f4bceb78282b4917ecc0f747529e4cada863f416a4730a45b4c4253f",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-spawn",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-text/v2/assets/image.png",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-text/v2/assets/image.png",
+      "kind": "texture",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 1188,
+      "sha256": "2fa41e6a5dcb27cfcb50d8e9ded82c510a71c660b7fc51e12d977f64a097ca90",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-text",
+          "version": 2,
+          "field": "image"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-text/v2/index.js",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-text/v2/index.js",
+      "kind": "script",
+      "group": "component",
+      "required": true,
+      "status": "ok",
+      "bytes": 3654,
+      "sha256": "a2cd0b54b6e7b55d39af477d06dfe09ccf66c3b5bf55ad5ad5935a0b70b9a26a",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-text",
+          "version": 2
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-text/v4/assets/image.png",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-text/v4/assets/image.png",
+      "kind": "texture",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 1188,
+      "sha256": "2fa41e6a5dcb27cfcb50d8e9ded82c510a71c660b7fc51e12d977f64a097ca90",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-text",
+          "version": 4,
+          "field": "image"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-text/v4/index.js",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-text/v4/index.js",
+      "kind": "script",
+      "group": "component",
+      "required": true,
+      "status": "ok",
+      "bytes": 2163,
+      "sha256": "cd1c4e13f2d41a9e657cb9a104129b0b0f9640a00652298deb9947c97d97ece4",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-text",
+          "version": 4
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-video/v13/assets/image.png",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-video/v13/assets/image.png",
+      "kind": "texture",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 1740,
+      "sha256": "2c1fe5449dcc94ed4e0aba74cddac87c7a6bdebd19539bdaca7226b75d8be934",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-video",
+          "version": 13,
+          "field": "image"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-video/v13/index.js",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-video/v13/index.js",
+      "kind": "script",
+      "group": "component",
+      "required": true,
+      "status": "ok",
+      "bytes": 5158,
+      "sha256": "34f927528b4db21ef6c8eec6605eaab1ef92127fc2edd878a1418f0c5a94b770",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-video",
+          "version": 13
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-web/v2/assets/image.png",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-web/v2/assets/image.png",
+      "kind": "texture",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 1018,
+      "sha256": "a54da29ff64d6c2c55d105f5115e23f1089e84422e25a9095a22636df159ce0e",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-web",
+          "version": 2,
+          "field": "image"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-web/v2/assets/thumbnail.png",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-web/v2/assets/thumbnail.png",
+      "kind": "texture",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 8331,
+      "sha256": "bc3ffceb5e6b200ae4ba3987c826de4b83eab241e1979e364b9f77c04d20e078",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "file": "data.hyperfy.xyz/components/hyperfy-web/v2/index.js",
+          "field": "literal"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-web/v2/index.js",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-web/v2/index.js",
+      "kind": "script",
+      "group": "component",
+      "required": true,
+      "status": "ok",
+      "bytes": 3227,
+      "sha256": "3f18f385ec4e87affe695173f5509f305e5c174f616548224ae53c38747a77eb",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-web",
+          "version": 2
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-web/v5/assets/image.png",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-web/v5/assets/image.png",
+      "kind": "texture",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 1018,
+      "sha256": "a54da29ff64d6c2c55d105f5115e23f1089e84422e25a9095a22636df159ce0e",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-web",
+          "version": 5,
+          "field": "image"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-web/v5/assets/thumbnail.png",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-web/v5/assets/thumbnail.png",
+      "kind": "texture",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 8331,
+      "sha256": "bc3ffceb5e6b200ae4ba3987c826de4b83eab241e1979e364b9f77c04d20e078",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "file": "data.hyperfy.xyz/components/hyperfy-web/v5/index.js",
+          "field": "literal"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-web/v5/index.js",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-web/v5/index.js",
+      "kind": "script",
+      "group": "component",
+      "required": true,
+      "status": "ok",
+      "bytes": 2561,
+      "sha256": "4cd0d467f5e22f7c4a2639af289ba64cd3948fd962abd2d639d7a714eb789aa0",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-web",
+          "version": 5
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-zone/v9/assets/image.png",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-zone/v9/assets/image.png",
+      "kind": "texture",
+      "group": "component",
+      "required": false,
+      "status": "ok",
+      "bytes": 1549,
+      "sha256": "8b2ee1a43d3829097553ed3b509e234d26f8851f692c3102c853946906d2ff8b",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-zone",
+          "version": 9,
+          "field": "image"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/hyperfy-zone/v9/index.js",
+      "url": "https://data.hyperfy.xyz/components/hyperfy-zone/v9/index.js",
+      "kind": "script",
+      "group": "component",
+      "required": true,
+      "status": "ok",
+      "bytes": 1689,
+      "sha256": "105fbc728eeffba1b5e20c80a6f2f8c52e8734e44a70d2721d6799811e894d67",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "component": "hyperfy-zone",
+          "version": 9
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/components/world/v2/assets/image.png",
+      "url": "https://data.hyperfy.xyz/components/world/v2/assets/image.png",
+      "kind": "texture",
+      "group": "runtime",
+      "required": false,
+      "status": "ok",
+      "bytes": 36379,
+      "sha256": "00d33cf93c6b0cd79d309c95984b3602c59f8decde646a447d15ce1dd76cc45c",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": []
+    },
+    {
+      "path": "data.hyperfy.xyz/core/crash-block-v2.glb",
+      "url": "https://data.hyperfy.xyz/core/crash-block-v2.glb",
+      "kind": "model",
+      "group": "runtime",
+      "required": false,
+      "status": "ok",
+      "bytes": 4592,
+      "sha256": "0568442c13191505f40418929f065e297874e45a1c90cf1b354736966ab2425a",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": []
+    },
+    {
+      "path": "data.hyperfy.xyz/core/fallback-v2.vrm",
+      "url": "https://data.hyperfy.xyz/core/fallback-v2.vrm",
+      "kind": "avatar",
+      "group": "runtime",
+      "required": false,
+      "status": "ok",
+      "bytes": 26540,
+      "sha256": "2867ebce06c4105b0233b61ed7d70e7126e011385f5274a055daa12bb738381e",
+      "contentType": "model/gltf-binary",
+      "names": [],
+      "referencedBy": []
+    },
+    {
+      "path": "data.hyperfy.xyz/core/hyperbot-v2.vrm",
+      "url": "https://data.hyperfy.xyz/core/hyperbot-v2.vrm",
+      "kind": "avatar",
+      "group": "runtime",
+      "required": false,
+      "status": "ok",
+      "bytes": 4817240,
+      "sha256": "468eaa14d7fdc09b16c775d88253c74c2caa82c4866fb29e23d36779556288c1",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": []
+    },
+    {
+      "path": "data.hyperfy.xyz/core/sky.hdr",
+      "url": "https://data.hyperfy.xyz/core/sky.hdr",
+      "kind": "environment",
+      "group": "runtime",
+      "required": false,
+      "status": "ok",
+      "bytes": 1230951,
+      "sha256": "a886e43add80215a3403a9299d769505036f6c3dca75c2e8a869d93da7719b3b",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": []
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/0447ff64f46b5e5e811d8b44665c3ee1c4a76da3f3edbb8b08d9efe8a61cd224.glb",
+      "url": "https://data.hyperfy.xyz/uploads/0447ff64f46b5e5e811d8b44665c3ee1c4a76da3f3edbb8b08d9efe8a61cd224.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 1833068,
+      "sha256": "0447ff64f46b5e5e811d8b44665c3ee1c4a76da3f3edbb8b08d9efe8a61cd224",
+      "contentType": "application/octet-stream",
+      "names": [
+        "wtdbts-ai̇-opt.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "n3teCQrssVz7AlcJqe5wY",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model2"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/04a153f9de87f66d03068d24889f1660d512ef77234ab0eaa09c7960c1e7d495.glb",
+      "url": "https://data.hyperfy.xyz/uploads/04a153f9de87f66d03068d24889f1660d512ef77234ab0eaa09c7960c1e7d495.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 2431312,
+      "sha256": "04a153f9de87f66d03068d24889f1660d512ef77234ab0eaa09c7960c1e7d495",
+      "contentType": "application/octet-stream",
+      "names": [
+        "logovise_opt-v1.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "1QefwMHBY6qPsguqLAw7e",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model3"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/07d0844ad916b5ed3428c2526a91a28d2301fe21303403bd00e897be7c627b77.png",
+      "url": "https://data.hyperfy.xyz/uploads/07d0844ad916b5ed3428c2526a91a28d2301fe21303403bd00e897be7c627b77.png",
+      "kind": "texture",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 666297,
+      "sha256": "07d0844ad916b5ed3428c2526a91a28d2301fe21303403bd00e897be7c627b77",
+      "contentType": "application/octet-stream",
+      "names": [
+        "kpakp.png"
+      ],
+      "referencedBy": [
+        {
+          "uid": "bvJHxOzlg9oTD4gNj2Tfw",
+          "component": "hyperfy-web",
+          "field": "$fields.image"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/12d7e88edb4713eeefe68370a49f1ae4376b78e369e120a892e42d88e2cb42e8.glb",
+      "url": "https://data.hyperfy.xyz/uploads/12d7e88edb4713eeefe68370a49f1ae4376b78e369e120a892e42d88e2cb42e8.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 172436,
+      "sha256": "12d7e88edb4713eeefe68370a49f1ae4376b78e369e120a892e42d88e2cb42e8",
+      "contentType": "application/octet-stream",
+      "names": [
+        "bow_idle.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "zDs2zOQeo4vOVoMn8frUb",
+          "component": "hyperfy-npc",
+          "field": "$fields.emote"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/13f7aa48ee5ce3b64559a83ac76f5a97bd2250e30d946f51dcfb07e37a1cacca.jpg",
+      "url": "https://data.hyperfy.xyz/uploads/13f7aa48ee5ce3b64559a83ac76f5a97bd2250e30d946f51dcfb07e37a1cacca.jpg",
+      "kind": "texture",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 13626,
+      "sha256": "13f7aa48ee5ce3b64559a83ac76f5a97bd2250e30d946f51dcfb07e37a1cacca",
+      "contentType": "application/octet-stream",
+      "names": [
+        "images.jpg"
+      ],
+      "referencedBy": [
+        {
+          "uid": "YufdsEWtBUoLeXIp3YQFV",
+          "component": "hyperfy-image",
+          "field": "$fields.src"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/15748a99bbd2e7f28c13654dd1fbd5156c6afaa4ede818777731ba56d44abfe0.glb",
+      "url": "https://data.hyperfy.xyz/uploads/15748a99bbd2e7f28c13654dd1fbd5156c6afaa4ede818777731ba56d44abfe0.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 77116,
+      "sha256": "15748a99bbd2e7f28c13654dd1fbd5156c6afaa4ede818777731ba56d44abfe0",
+      "contentType": "application/octet-stream",
+      "names": [
+        "numbersonmodel.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "nQGBiWz4QBMp2kEMp7rX4",
+          "component": "hyperfy-model",
+          "field": "$fields.src"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/1702034ca299d15c00819cd7e845724406d381cc82b3121fb8634086d08eb97c.glb",
+      "url": "https://data.hyperfy.xyz/uploads/1702034ca299d15c00819cd7e845724406d381cc82b3121fb8634086d08eb97c.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 1937420,
+      "sha256": "1702034ca299d15c00819cd7e845724406d381cc82b3121fb8634086d08eb97c",
+      "contentType": "application/octet-stream",
+      "names": [
+        "di̇gi̇talgodsremsleep-opt.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "fJ6V5IgBdQY88G2NdF0Un",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model2"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/177c441458ed2e599aaed766f8df7f30abbd9a39a817e70a9554824c71edc252.mp4",
+      "url": "https://data.hyperfy.xyz/uploads/177c441458ed2e599aaed766f8df7f30abbd9a39a817e70a9554824c71edc252.mp4",
+      "kind": "video",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 4420458,
+      "sha256": "177c441458ed2e599aaed766f8df7f30abbd9a39a817e70a9554824c71edc252",
+      "contentType": "application/octet-stream",
+      "names": [
+        "MONALİSA-NFT.mp4"
+      ],
+      "referencedBy": [
+        {
+          "uid": "LHuZHUIEa1HwtKXFoQxQz",
+          "component": "hyperfy-video",
+          "field": "$fields.src"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/1852c22de8dab0b4be21103371d59040f04d628a83b0f36b5adb679515404a62.glb",
+      "url": "https://data.hyperfy.xyz/uploads/1852c22de8dab0b4be21103371d59040f04d628a83b0f36b5adb679515404a62.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 6369044,
+      "sha256": "1852c22de8dab0b4be21103371d59040f04d628a83b0f36b5adb679515404a62",
+      "contentType": "application/octet-stream",
+      "names": [
+        "spleenanims-v3.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "caYSWWwr2uV0zb73Va3LE",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model2"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/18a93e096c80f42e05b5281ccd79d74c997491fa9061c14d037e745a52ba89f5.glb",
+      "url": "https://data.hyperfy.xyz/uploads/18a93e096c80f42e05b5281ccd79d74c997491fa9061c14d037e745a52ba89f5.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 345560,
+      "sha256": "18a93e096c80f42e05b5281ccd79d74c997491fa9061c14d037e745a52ba89f5",
+      "contentType": "application/octet-stream",
+      "names": [
+        "AiDO-yazitlari-v1.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "jQAGoSZsjswOwfIziW3kT",
+          "component": "hyperfy-model",
+          "field": "$fields.src"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/19727d13c129b8060925c474d45ac72b492421ae2147210a192b8030e8714d6e.glb",
+      "url": "https://data.hyperfy.xyz/uploads/19727d13c129b8060925c474d45ac72b492421ae2147210a192b8030e8714d6e.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 220568,
+      "sha256": "19727d13c129b8060925c474d45ac72b492421ae2147210a192b8030e8714d6e",
+      "contentType": "application/octet-stream",
+      "names": [
+        "angry.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "NcLiqyz2OMgNPk8BrgfvE",
+          "component": "hyperfy-npc",
+          "field": "$fields.emote"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/1df105a13070f5dd3e144a43f340ca7d694692299bf9f1db9b57f2d95b5b1e1a.glb",
+      "url": "https://data.hyperfy.xyz/uploads/1df105a13070f5dd3e144a43f340ca7d694692299bf9f1db9b57f2d95b5b1e1a.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 1179772,
+      "sha256": "1df105a13070f5dd3e144a43f340ca7d694692299bf9f1db9b57f2d95b5b1e1a",
+      "contentType": "application/octet-stream",
+      "names": [
+        "photo-massvolume-opt.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "Hj3FCYyk7uNxl00tf1KAt",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model2"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/2539834a996b1eba1b5a9e5b138ee2d97a28a68828967ff8d6cba99eef12cdd1.mp4",
+      "url": "https://data.hyperfy.xyz/uploads/2539834a996b1eba1b5a9e5b138ee2d97a28a68828967ff8d6cba99eef12cdd1.mp4",
+      "kind": "video",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 3800128,
+      "sha256": "2539834a996b1eba1b5a9e5b138ee2d97a28a68828967ff8d6cba99eef12cdd1",
+      "contentType": "application/octet-stream",
+      "names": [
+        "sexmuze-compresed.mp4"
+      ],
+      "referencedBy": [
+        {
+          "uid": "buRucYdcDFUxYaxToKI4q",
+          "component": "hyperfy-video",
+          "field": "$fields.src"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/27ab63e3a70748f38d840449a3b5c8b8c67454d2c1e1791cb7a2d06ea4b1c4ee.glb",
+      "url": "https://data.hyperfy.xyz/uploads/27ab63e3a70748f38d840449a3b5c8b8c67454d2c1e1791cb7a2d06ea4b1c4ee.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 143224,
+      "sha256": "27ab63e3a70748f38d840449a3b5c8b8c67454d2c1e1791cb7a2d06ea4b1c4ee",
+      "contentType": "application/octet-stream",
+      "names": [
+        "Standing.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "3WrrPASWU59Cig0DcZF3h",
+          "component": "hyperfy-npc",
+          "field": "$fields.emote"
+        },
+        {
+          "uid": "lm92Sr5kXnTr3PuQCcIt8",
+          "component": "hyperfy-npc",
+          "field": "$fields.emote"
+        },
+        {
+          "uid": "3U5oVlIACnu52MJtmNDQE",
+          "component": "hyperfy-npc",
+          "field": "$fields.emote"
+        },
+        {
+          "uid": "l4qU7KCBxCowTosP7A5gz",
+          "component": "hyperfy-npc",
+          "field": "$fields.emote"
+        },
+        {
+          "uid": "MeQrynHTMMD8B9yEZE05E",
+          "component": "hyperfy-npc",
+          "field": "$fields.emote"
+        },
+        {
+          "uid": "ZpPFsU07jnqioUoI2Y8lf",
+          "component": "hyperfy-npc",
+          "field": "$fields.emote"
+        },
+        {
+          "uid": "yEwA6ATq4Lslz3flhLhPf",
+          "component": "hyperfy-npc",
+          "field": "$fields.emote"
+        },
+        {
+          "uid": "oi2E37jArItNlE2pj5PgA",
+          "component": "hyperfy-npc",
+          "field": "$fields.emote"
+        },
+        {
+          "uid": "ChYTMNpI6gNTPi104on1e",
+          "component": "hyperfy-npc",
+          "field": "$fields.emote"
+        },
+        {
+          "uid": "8ecfre0sbJ0tFlfpFIY1L",
+          "component": "hyperfy-npc",
+          "field": "$fields.emote"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/2833f0212ec9243dfbbb50d5984097d8b88db542e2a67cb46c8533d40d608c3d.glb",
+      "url": "https://data.hyperfy.xyz/uploads/2833f0212ec9243dfbbb50d5984097d8b88db542e2a67cb46c8533d40d608c3d.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 3060416,
+      "sha256": "2833f0212ec9243dfbbb50d5984097d8b88db542e2a67cb46c8533d40d608c3d",
+      "contentType": "application/octet-stream",
+      "names": [
+        "boogie-1-fullcorridor-opt-webp.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "r3T1DLsypLv23AiOS9Hfu",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model2"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/2a00ba6195455758673db2dc29464d45ab1c3ed16043fb73b85ba16015db42ff.glb",
+      "url": "https://data.hyperfy.xyz/uploads/2a00ba6195455758673db2dc29464d45ab1c3ed16043fb73b85ba16015db42ff.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 192412,
+      "sha256": "2a00ba6195455758673db2dc29464d45ab1c3ed16043fb73b85ba16015db42ff",
+      "contentType": "application/octet-stream",
+      "names": [
+        "PRIVATE KAPI CAM (2).glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "YrcXwetg13B6AXO3wPxRU",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model1"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/2b27b6e9cdcd154627c18e22f3dac06c015245fef7e30d2633fac3c424fbf7c0.hdr",
+      "url": "https://data.hyperfy.xyz/uploads/2b27b6e9cdcd154627c18e22f3dac06c015245fef7e30d2633fac3c424fbf7c0.hdr",
+      "kind": "environment",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 2641239,
+      "sha256": "2b27b6e9cdcd154627c18e22f3dac06c015245fef7e30d2633fac3c424fbf7c0",
+      "contentType": "application/octet-stream",
+      "names": [
+        "SciFi-HDRO-2-BRIGH_equirectangular-jpg_VR360_view_from_ground_516599843_10068823.hdr"
+      ],
+      "referencedBy": [
+        {
+          "uid": "YBD9OAcPeLoZiKMIkrJi8",
+          "component": "hyperfy-sky",
+          "field": "$fields.hdrFile"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/2bebaf6bd0c447500bad4ef04b975722096e1fc3c5cf5e3e5b57d8cd3672aaba.glb",
+      "url": "https://data.hyperfy.xyz/uploads/2bebaf6bd0c447500bad4ef04b975722096e1fc3c5cf5e3e5b57d8cd3672aaba.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 22448,
+      "sha256": "2bebaf6bd0c447500bad4ef04b975722096e1fc3c5cf5e3e5b57d8cd3672aaba",
+      "contentType": "application/octet-stream",
+      "names": [
+        "256-irlp-room2-1-opt.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "gqxyy0jGwZtqnXOd0B770",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model1"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/2db4ff4bc1c1725c5294ea30251cdbd248fd4a622740ffd929c4a441ef298721.mp3",
+      "url": "https://data.hyperfy.xyz/uploads/2db4ff4bc1c1725c5294ea30251cdbd248fd4a622740ffd929c4a441ef298721.mp3",
+      "kind": "audio",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 966188,
+      "sha256": "2db4ff4bc1c1725c5294ea30251cdbd248fd4a622740ffd929c4a441ef298721",
+      "contentType": "application/octet-stream",
+      "names": [
+        "IRLP-ABSTRACT-enhanced-v2-90p.mp3"
+      ],
+      "referencedBy": [
+        {
+          "uid": "XRWDDKxMjZ7gQRGod5KvW",
+          "component": "hyperfy-audio",
+          "field": "$fields.src"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/2eb8a3852188cc8defbc80ec29619bee1aaf03b8643a6af4e784b0b3a5f31ff7.glb",
+      "url": "https://data.hyperfy.xyz/uploads/2eb8a3852188cc8defbc80ec29619bee1aaf03b8643a6af4e784b0b3a5f31ff7.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 20224,
+      "sha256": "2eb8a3852188cc8defbc80ec29619bee1aaf03b8643a6af4e784b0b3a5f31ff7",
+      "contentType": "application/octet-stream",
+      "names": [
+        "photo-street-opt.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "m6lGAFg2frl3R5IDd1cpl",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model1"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/30648da2a97786264bf6af73bdfbbb2b48165cbd9bf222f630b486eec0813cca.glb",
+      "url": "https://data.hyperfy.xyz/uploads/30648da2a97786264bf6af73bdfbbb2b48165cbd9bf222f630b486eec0813cca.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 24768,
+      "sha256": "30648da2a97786264bf6af73bdfbbb2b48165cbd9bf222f630b486eec0813cca",
+      "contentType": "application/octet-stream",
+      "names": [
+        "di̇gi̇talgodsremsleep-opt.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "fJ6V5IgBdQY88G2NdF0Un",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model1"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/355b4d8b9b7c88f02559f9e0f1a61d88bec2c2c4c3c1f026c7bb0313bad499a6.glb",
+      "url": "https://data.hyperfy.xyz/uploads/355b4d8b9b7c88f02559f9e0f1a61d88bec2c2c4c3c1f026c7bb0313bad499a6.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 25616,
+      "sha256": "355b4d8b9b7c88f02559f9e0f1a61d88bec2c2c4c3c1f026c7bb0313bad499a6",
+      "contentType": "application/octet-stream",
+      "names": [
+        "irlp-bigroom-opt.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "8jCA0TmYEYkyTVjLBkX0M",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model1"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/37839e3a57e23aa4fe4c571de019a9ba17ba5f9104cd27ad8c7f132ff81adaab.glb",
+      "url": "https://data.hyperfy.xyz/uploads/37839e3a57e23aa4fe4c571de019a9ba17ba5f9104cd27ad8c7f132ff81adaab.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 699580,
+      "sha256": "37839e3a57e23aa4fe4c571de019a9ba17ba5f9104cd27ad8c7f132ff81adaab",
+      "contentType": "application/octet-stream",
+      "names": [
+        "nd-2-v1 (1).glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "1QefwMHBY6qPsguqLAw7e",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model2"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/37d38c97e064b0ab1e9faff8f77bde99eceac9a0cac0d44d92333ce9eb0482a9.glb",
+      "url": "https://data.hyperfy.xyz/uploads/37d38c97e064b0ab1e9faff8f77bde99eceac9a0cac0d44d92333ce9eb0482a9.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 17776,
+      "sha256": "37d38c97e064b0ab1e9faff8f77bde99eceac9a0cac0d44d92333ce9eb0482a9",
+      "contentType": "application/octet-stream",
+      "names": [
+        "photo-massvolume-opt.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "Hj3FCYyk7uNxl00tf1KAt",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model1"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/395f0521c801006f74401cbe4fafe84c184a88a377d6a498a7bd4b8989eef73a.glb",
+      "url": "https://data.hyperfy.xyz/uploads/395f0521c801006f74401cbe4fafe84c184a88a377d6a498a7bd4b8989eef73a.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 1985732,
+      "sha256": "395f0521c801006f74401cbe4fafe84c184a88a377d6a498a7bd4b8989eef73a",
+      "contentType": "application/octet-stream",
+      "names": [
+        "irlp-room2-1-opt.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "gqxyy0jGwZtqnXOd0B770",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model2"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/39a790ff0046da982b6834fe12761ba89612c3943b4685ecd26cb73db84397c9.glb",
+      "url": "https://data.hyperfy.xyz/uploads/39a790ff0046da982b6834fe12761ba89612c3943b4685ecd26cb73db84397c9.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 598036,
+      "sha256": "39a790ff0046da982b6834fe12761ba89612c3943b4685ecd26cb73db84397c9",
+      "contentType": "application/octet-stream",
+      "names": [
+        "dt-rework-opt-2K.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "R6Gv7rFCBWWuUZDT8vCMv",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model2"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/3dd5daf5249e3c204ffce290b34de0641938d2ca2d2de1c588c2314bda55f2a2.mp3",
+      "url": "https://data.hyperfy.xyz/uploads/3dd5daf5249e3c204ffce290b34de0641938d2ca2d2de1c588c2314bda55f2a2.mp3",
+      "kind": "audio",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 1738220,
+      "sha256": "3dd5daf5249e3c204ffce290b34de0641938d2ca2d2de1c588c2314bda55f2a2",
+      "contentType": "application/octet-stream",
+      "names": [
+        "IRLP-BIGROOM-FIGGYEXP-enhanced-v2-90p.mp3"
+      ],
+      "referencedBy": [
+        {
+          "uid": "FkWWzklddPd6Ild8LdLfd",
+          "component": "hyperfy-audio",
+          "field": "$fields.src"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/422d8fe5481e0eafee617fd85a2d574420cc25fd5816e358f805b4945377cbd1.glb",
+      "url": "https://data.hyperfy.xyz/uploads/422d8fe5481e0eafee617fd85a2d574420cc25fd5816e358f805b4945377cbd1.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 627836,
+      "sha256": "422d8fe5481e0eafee617fd85a2d574420cc25fd5816e358f805b4945377cbd1",
+      "contentType": "application/octet-stream",
+      "names": [
+        "kori̇dor-general-opt-2k.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "46NJQYe6zxzeYo7QN3KDe",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model1"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/439cb094d4254dfbecdfe9457baa07cbe1a46ab3973a68ddc1457c5d526c9d05.glb",
+      "url": "https://data.hyperfy.xyz/uploads/439cb094d4254dfbecdfe9457baa07cbe1a46ab3973a68ddc1457c5d526c9d05.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 22228,
+      "sha256": "439cb094d4254dfbecdfe9457baa07cbe1a46ab3973a68ddc1457c5d526c9d05",
+      "contentType": "application/octet-stream",
+      "names": [
+        "256-futurewabi̇sabi̇spacespace-exp-opt.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "qfUFDBay9xPTsOVeUFDnE",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model1"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/43a4f57dc05d153d1873b58b8058321c5dcbd1ccbf2525b4b7628ba509016af0.mp3",
+      "url": "https://data.hyperfy.xyz/uploads/43a4f57dc05d153d1873b58b8058321c5dcbd1ccbf2525b4b7628ba509016af0.mp3",
+      "kind": "audio",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 1090796,
+      "sha256": "43a4f57dc05d153d1873b58b8058321c5dcbd1ccbf2525b4b7628ba509016af0",
+      "contentType": "application/octet-stream",
+      "names": [
+        "DAVİNCİPUNKS-enhanced-v2-90p.mp3"
+      ],
+      "referencedBy": [
+        {
+          "uid": "7GsBsDm6ZmCmZcOoYZRk5",
+          "component": "hyperfy-audio",
+          "field": "$fields.src"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/450e4abe4984f5942d1e0a49792eb7098acb6a7f8b104333b9a0fa9654e89d14.glb",
+      "url": "https://data.hyperfy.xyz/uploads/450e4abe4984f5942d1e0a49792eb7098acb6a7f8b104333b9a0fa9654e89d14.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 1310020,
+      "sha256": "450e4abe4984f5942d1e0a49792eb7098acb6a7f8b104333b9a0fa9654e89d14",
+      "contentType": "application/octet-stream",
+      "names": [
+        "aciklama-direction-tabela_v1-4k-opt (1).glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "eDWXUi1r9zlwJcurP8iEa",
+          "component": "hyperfy-model",
+          "field": "$fields.src"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/47e8f416d2c9af3ef23802a132749fe5cd02bd6fcecadc3259d011fae0e71627.glb",
+      "url": "https://data.hyperfy.xyz/uploads/47e8f416d2c9af3ef23802a132749fe5cd02bd6fcecadc3259d011fae0e71627.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 19180,
+      "sha256": "47e8f416d2c9af3ef23802a132749fe5cd02bd6fcecadc3259d011fae0e71627",
+      "contentType": "application/octet-stream",
+      "names": [
+        "256-irlp-room3-opt.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "CpX3zUfEZYegJN4u5NkLK",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model1"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/48b714eefd45c1f335bf617d478a7e8217cad7eec55224c2554009afb1659bf3.glb",
+      "url": "https://data.hyperfy.xyz/uploads/48b714eefd45c1f335bf617d478a7e8217cad7eec55224c2554009afb1659bf3.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 1525352,
+      "sha256": "48b714eefd45c1f335bf617d478a7e8217cad7eec55224c2554009afb1659bf3",
+      "contentType": "application/octet-stream",
+      "names": [
+        "irlp-room3-opt.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "CpX3zUfEZYegJN4u5NkLK",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model2"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/4ef7010c77b18784fd3b6037358df51895aaf5ccf99f2d5d23777363e4a58cc0.glb",
+      "url": "https://data.hyperfy.xyz/uploads/4ef7010c77b18784fd3b6037358df51895aaf5ccf99f2d5d23777363e4a58cc0.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 604532,
+      "sha256": "4ef7010c77b18784fd3b6037358df51895aaf5ccf99f2d5d23777363e4a58cc0",
+      "contentType": "application/octet-stream",
+      "names": [
+        "EXHIBITIONFLYER.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "FrZzKQ4ZKbXEifHlA7G4j",
+          "component": "hyperfy-model",
+          "field": "$fields.src"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/5291f6247e697c47921eba6809f8a685c2bc54e9973b2ffb913a8ccb102e66a0.glb",
+      "url": "https://data.hyperfy.xyz/uploads/5291f6247e697c47921eba6809f8a685c2bc54e9973b2ffb913a8ccb102e66a0.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 3994808,
+      "sha256": "5291f6247e697c47921eba6809f8a685c2bc54e9973b2ffb913a8ccb102e66a0",
+      "contentType": "application/octet-stream",
+      "names": [
+        "c2ty (3)-7scale-opt.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "gZZbZqA4pj9GPSZlbzDdy",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model1"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/547af0ef0f9014816e543792dbcbefe3f75459068e7438c8640e871423328b5b.glb",
+      "url": "https://data.hyperfy.xyz/uploads/547af0ef0f9014816e543792dbcbefe3f75459068e7438c8640e871423328b5b.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 24264,
+      "sha256": "547af0ef0f9014816e543792dbcbefe3f75459068e7438c8640e871423328b5b",
+      "contentType": "application/octet-stream",
+      "names": [
+        "boogie-1-fullcorridor-opt.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "r3T1DLsypLv23AiOS9Hfu",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model1"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/581caa91f25a39abaffeebb33dbde736dfd7dc8706752751aeb85a02aed1d822.glb",
+      "url": "https://data.hyperfy.xyz/uploads/581caa91f25a39abaffeebb33dbde736dfd7dc8706752751aeb85a02aed1d822.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 15604,
+      "sha256": "581caa91f25a39abaffeebb33dbde736dfd7dc8706752751aeb85a02aed1d822",
+      "contentType": "application/octet-stream",
+      "names": [
+        "photo-bw-opt.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "vXySUsY9suwsSQx4th8Ei",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model1"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/58c749b797fd0d93db3984f2a3dc3b901575852ec2c86f5c468418b6199e06e9.glb",
+      "url": "https://data.hyperfy.xyz/uploads/58c749b797fd0d93db3984f2a3dc3b901575852ec2c86f5c468418b6199e06e9.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 2054140,
+      "sha256": "58c749b797fd0d93db3984f2a3dc3b901575852ec2c86f5c468418b6199e06e9",
+      "contentType": "application/octet-stream",
+      "names": [
+        "hat1-oda3-curated-og-opt.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "zXklnT5JImsosq4mOQFSE",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model2"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/5abc0953520662ad80ed596dec3a2c7ba3a717ad2bba13a13faa71034ff1ccf3.glb",
+      "url": "https://data.hyperfy.xyz/uploads/5abc0953520662ad80ed596dec3a2c7ba3a717ad2bba13a13faa71034ff1ccf3.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 4625456,
+      "sha256": "5abc0953520662ad80ed596dec3a2c7ba3a717ad2bba13a13faa71034ff1ccf3",
+      "contentType": "application/octet-stream",
+      "names": [
+        "COLLECTORSLOUNGE.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "rYT4XFcNRlGJLTGuWxVLe",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model3"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/5b6fcc98a0da1add5bf2f90108c744dcf88551b1d088d32a5452e3079b63aa4c.jpg",
+      "url": "https://data.hyperfy.xyz/uploads/5b6fcc98a0da1add5bf2f90108c744dcf88551b1d088d32a5452e3079b63aa4c.jpg",
+      "kind": "texture",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 329789,
+      "sha256": "5b6fcc98a0da1add5bf2f90108c744dcf88551b1d088d32a5452e3079b63aa4c",
+      "contentType": "application/octet-stream",
+      "names": [
+        "FACCIA2-LOW.jpg"
+      ],
+      "referencedBy": [
+        {
+          "uid": "SYiGdE9GFIP9rEAyY47ut",
+          "component": "hyperfy-web",
+          "field": "$fields.image"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/5e972a3a19ee720a6cde330e8e53b37177af7a37cbc97e692fcda852e1506584.mp4",
+      "url": "https://data.hyperfy.xyz/uploads/5e972a3a19ee720a6cde330e8e53b37177af7a37cbc97e692fcda852e1506584.mp4",
+      "kind": "video",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 85839511,
+      "sha256": "5e972a3a19ee720a6cde330e8e53b37177af7a37cbc97e692fcda852e1506584",
+      "contentType": "application/octet-stream",
+      "names": [
+        "HERITAGE-V2-comp.mp4"
+      ],
+      "referencedBy": [
+        {
+          "uid": "QDPQIlCb925gGLk30xIUi",
+          "component": "hyperfy-video",
+          "field": "$fields.src"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/5fa76a3081879b4106db96c473098e2c51e4501e520223daf1980218f22875a5.mp3",
+      "url": "https://data.hyperfy.xyz/uploads/5fa76a3081879b4106db96c473098e2c51e4501e520223daf1980218f22875a5.mp3",
+      "kind": "audio",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 3347241,
+      "sha256": "5fa76a3081879b4106db96c473098e2c51e4501e520223daf1980218f22875a5",
+      "contentType": "application/octet-stream",
+      "names": [
+        "EARLY DFW-BJORKTV.mp3"
+      ],
+      "referencedBy": [
+        {
+          "uid": "6GZ3KmaUj2oSt0O6QMICh",
+          "component": "hyperfy-audio",
+          "field": "$fields.src"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/62ddcc63e0c3c0094926c351758a6d288af4d48490d640bc76bf006251d0f271.jpg",
+      "url": "https://data.hyperfy.xyz/uploads/62ddcc63e0c3c0094926c351758a6d288af4d48490d640bc76bf006251d0f271.jpg",
+      "kind": "texture",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 2983434,
+      "sha256": "62ddcc63e0c3c0094926c351758a6d288af4d48490d640bc76bf006251d0f271",
+      "contentType": "application/octet-stream",
+      "names": [
+        "SciFi_equirectangular-jpg_VR360_view_from_ground_516599843_10068823.jpg"
+      ],
+      "referencedBy": [
+        {
+          "uid": "YBD9OAcPeLoZiKMIkrJi8",
+          "component": "hyperfy-sky",
+          "field": "$fields.bgFile"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/649e0cabd639cc393383e2cecd407eac0399a0b1a6f3439852b89e5bba177818.glb",
+      "url": "https://data.hyperfy.xyz/uploads/649e0cabd639cc393383e2cecd407eac0399a0b1a6f3439852b89e5bba177818.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 1380024,
+      "sha256": "649e0cabd639cc393383e2cecd407eac0399a0b1a6f3439852b89e5bba177818",
+      "contentType": "application/octet-stream",
+      "names": [
+        "photo-human-opt.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "dM0MMWocNx3ZdoLi2wtJp",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model2"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/68a4fd1427dbbe0c6f74b26b5bc9930a0da51c44769a2009efb6d7110cf1c26b.mp4",
+      "url": "https://data.hyperfy.xyz/uploads/68a4fd1427dbbe0c6f74b26b5bc9930a0da51c44769a2009efb6d7110cf1c26b.mp4",
+      "kind": "video",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 10240813,
+      "sha256": "68a4fd1427dbbe0c6f74b26b5bc9930a0da51c44769a2009efb6d7110cf1c26b",
+      "contentType": "application/octet-stream",
+      "names": [
+        "issuuportfolio.mp4"
+      ],
+      "referencedBy": [
+        {
+          "uid": "niGxte7u9lNhZSc9enIv2",
+          "component": "hyperfy-video",
+          "field": "$fields.src"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/6900272a9a655f66f03924cbb93ad1c99a1e31048e30f171700ff2e352597170.mp3",
+      "url": "https://data.hyperfy.xyz/uploads/6900272a9a655f66f03924cbb93ad1c99a1e31048e30f171700ff2e352597170.mp3",
+      "kind": "audio",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 7032603,
+      "sha256": "6900272a9a655f66f03924cbb93ad1c99a1e31048e30f171700ff2e352597170",
+      "contentType": "application/octet-stream",
+      "names": [
+        "Aphex Twin _ AFX - 3 Slothscrap.mp3"
+      ],
+      "referencedBy": [
+        {
+          "uid": "rObZJ859gAV3HGr6mijQ5",
+          "component": "hyperfy-audio",
+          "field": "$fields.src"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/769a6d75a3e515d45ed8bb08793247dc3400ff43395980b811001906a90f5779.glb",
+      "url": "https://data.hyperfy.xyz/uploads/769a6d75a3e515d45ed8bb08793247dc3400ff43395980b811001906a90f5779.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 25288,
+      "sha256": "769a6d75a3e515d45ed8bb08793247dc3400ff43395980b811001906a90f5779",
+      "contentType": "application/octet-stream",
+      "names": [
+        "digitalpaint-opt (1).glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "t4MEYyLigeyBz5gtRUPgo",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model1"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/787f951b31904a9d26365b7456d3c722b8300734fa3a5271c8841e82a46c2163.glb",
+      "url": "https://data.hyperfy.xyz/uploads/787f951b31904a9d26365b7456d3c722b8300734fa3a5271c8841e82a46c2163.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 3225456,
+      "sha256": "787f951b31904a9d26365b7456d3c722b8300734fa3a5271c8841e82a46c2163",
+      "contentType": "application/octet-stream",
+      "names": [
+        "irlp-bigroom-opt-WEBP.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "8jCA0TmYEYkyTVjLBkX0M",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model2"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/7ab91ce1c59d7fff3294e6df61597855f543a7d650491bcdac7a3355fa00f862.glb",
+      "url": "https://data.hyperfy.xyz/uploads/7ab91ce1c59d7fff3294e6df61597855f543a7d650491bcdac7a3355fa00f862.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 110196,
+      "sha256": "7ab91ce1c59d7fff3294e6df61597855f543a7d650491bcdac7a3355fa00f862",
+      "contentType": "application/octet-stream",
+      "names": [
+        "enteringcode.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "xms2pRoLXGmuzk0tnUlV2",
+          "component": "hyperfy-npc",
+          "field": "$fields.emote"
+        },
+        {
+          "uid": "AFS6sjOyJhoCwj78SQxs5",
+          "component": "hyperfy-npc",
+          "field": "$fields.emote"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/7b738628b0dc72d47f750fedcb10d520a2db61ea1eb0e652c296cf0583265bb3.glb",
+      "url": "https://data.hyperfy.xyz/uploads/7b738628b0dc72d47f750fedcb10d520a2db61ea1eb0e652c296cf0583265bb3.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 20500,
+      "sha256": "7b738628b0dc72d47f750fedcb10d520a2db61ea1eb0e652c296cf0583265bb3",
+      "contentType": "application/octet-stream",
+      "names": [
+        "davinci-opt-256.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "ZohEF44bF9sGUm4Wt4n4T",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model1"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/7bbef3c4d449a9f4a57e3e13476cf9083699a523a9c2e3dda4952b1f0af86534.glb",
+      "url": "https://data.hyperfy.xyz/uploads/7bbef3c4d449a9f4a57e3e13476cf9083699a523a9c2e3dda4952b1f0af86534.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 21440,
+      "sha256": "7bbef3c4d449a9f4a57e3e13476cf9083699a523a9c2e3dda4952b1f0af86534",
+      "contentType": "application/octet-stream",
+      "names": [
+        "hat1-oda3-curated-og-opt-256.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "zXklnT5JImsosq4mOQFSE",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model1"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/8059410c625263d401b10313d482fac923155d91a9217591ac4523bc299d1a80.glb",
+      "url": "https://data.hyperfy.xyz/uploads/8059410c625263d401b10313d482fac923155d91a9217591ac4523bc299d1a80.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 265804,
+      "sha256": "8059410c625263d401b10313d482fac923155d91a9217591ac4523bc299d1a80",
+      "contentType": "application/octet-stream",
+      "names": [
+        "c2ty (3)-7scale-BOŞŞŞ.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "gZZbZqA4pj9GPSZlbzDdy",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model2"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/815eba1a617004bb27715b30d27043b5827501b3600404de40d1af9486883fd5.mp4",
+      "url": "https://data.hyperfy.xyz/uploads/815eba1a617004bb27715b30d27043b5827501b3600404de40d1af9486883fd5.mp4",
+      "kind": "video",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 4709826,
+      "sha256": "815eba1a617004bb27715b30d27043b5827501b3600404de40d1af9486883fd5",
+      "contentType": "application/octet-stream",
+      "names": [
+        "SALUTE-LOW.mp4"
+      ],
+      "referencedBy": [
+        {
+          "uid": "aSvevExuibSLS1xjYZDrF",
+          "component": "hyperfy-video",
+          "field": "$fields.src"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/81b9bc846be3c7047706d4f09b3384e0966337a37438e349701fcdf85526b914.glb",
+      "url": "https://data.hyperfy.xyz/uploads/81b9bc846be3c7047706d4f09b3384e0966337a37438e349701fcdf85526b914.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 820020,
+      "sha256": "81b9bc846be3c7047706d4f09b3384e0966337a37438e349701fcdf85526b914",
+      "contentType": "application/octet-stream",
+      "names": [
+        "photo-bw-opt.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "vXySUsY9suwsSQx4th8Ei",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model2"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/83d1fbf736300c8da68e7a6c6b161cf83c138cce1daf47045ac9cfb99eec598e.glb",
+      "url": "https://data.hyperfy.xyz/uploads/83d1fbf736300c8da68e7a6c6b161cf83c138cce1daf47045ac9cfb99eec598e.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 678876,
+      "sha256": "83d1fbf736300c8da68e7a6c6b161cf83c138cce1daf47045ac9cfb99eec598e",
+      "contentType": "application/octet-stream",
+      "names": [
+        "usa-opt.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "wNSujL2gjgLwiQIOJjQRC",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model2"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/8410584018c2594468d96e9a04c766099f9bedd91c40059d16967ee910318f38.glb",
+      "url": "https://data.hyperfy.xyz/uploads/8410584018c2594468d96e9a04c766099f9bedd91c40059d16967ee910318f38.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 1637208,
+      "sha256": "8410584018c2594468d96e9a04c766099f9bedd91c40059d16967ee910318f38",
+      "contentType": "application/octet-stream",
+      "names": [
+        "futurewabi̇sabi̇spacespace-exp-opt.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "qfUFDBay9xPTsOVeUFDnE",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model2"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/8556c72ff9d2efc5edb41b51d9b8d4005fcf0a74048948d1606795ec88b026d3.glb",
+      "url": "https://data.hyperfy.xyz/uploads/8556c72ff9d2efc5edb41b51d9b8d4005fcf0a74048948d1606795ec88b026d3.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 18684,
+      "sha256": "8556c72ff9d2efc5edb41b51d9b8d4005fcf0a74048948d1606795ec88b026d3",
+      "contentType": "application/octet-stream",
+      "names": [
+        "256-rr-room-opt.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "KUA1AAzXCRd9xW5wf4pfQ",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model1"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/88f46f716e45915c37db47dae1ab0f0c6f7111c1d2d606d26d3af76e4c05f026.glb",
+      "url": "https://data.hyperfy.xyz/uploads/88f46f716e45915c37db47dae1ab0f0c6f7111c1d2d606d26d3af76e4c05f026.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 306836,
+      "sha256": "88f46f716e45915c37db47dae1ab0f0c6f7111c1d2d606d26d3af76e4c05f026",
+      "contentType": "application/octet-stream",
+      "names": [
+        "meydan-davi̇nci̇-opt-2k.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "mkhd08YepopCA86SRIMi6",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model1"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/920e354a8baaffb3a5268587c9cd774dcacd52ff0b3449c758d487d17ea92a04.mp4",
+      "url": "https://data.hyperfy.xyz/uploads/920e354a8baaffb3a5268587c9cd774dcacd52ff0b3449c758d487d17ea92a04.mp4",
+      "kind": "video",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 17165267,
+      "sha256": "920e354a8baaffb3a5268587c9cd774dcacd52ff0b3449c758d487d17ea92a04",
+      "contentType": "application/octet-stream",
+      "names": [
+        "COLLECTORS MESSAGE-FIRST ARRIVAL-COMP.mp4"
+      ],
+      "referencedBy": [
+        {
+          "uid": "jlnVzENu37FnjOf4UM5Ps",
+          "component": "hyperfy-video",
+          "field": "$fields.src"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/9226e7ca3aff538101d05e28c58a84c6d990ab6bf5ca35fe45a5851a12f6bf48.jpg",
+      "url": "https://data.hyperfy.xyz/uploads/9226e7ca3aff538101d05e28c58a84c6d990ab6bf5ca35fe45a5851a12f6bf48.jpg",
+      "kind": "texture",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 1841639,
+      "sha256": "9226e7ca3aff538101d05e28c58a84c6d990ab6bf5ca35fe45a5851a12f6bf48",
+      "contentType": "application/octet-stream",
+      "names": [
+        "collector-1-low.jpg"
+      ],
+      "referencedBy": [
+        {
+          "uid": "XyjggOP1K6qU2BHuJDxSW",
+          "component": "hyperfy-image",
+          "field": "$fields.src"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/957bfcd9c2ebd8c1b7d58259f3a3ea7427610f214bccbe7abf82c33febc1e87c.glb",
+      "url": "https://data.hyperfy.xyz/uploads/957bfcd9c2ebd8c1b7d58259f3a3ea7427610f214bccbe7abf82c33febc1e87c.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 17412,
+      "sha256": "957bfcd9c2ebd8c1b7d58259f3a3ea7427610f214bccbe7abf82c33febc1e87c",
+      "contentType": "application/octet-stream",
+      "names": [
+        "photo-human-opt.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "dM0MMWocNx3ZdoLi2wtJp",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model1"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/986b7597fa63e7112018494328f7064047e6d5aee4268b47db74a711ced20fb7.png",
+      "url": "https://data.hyperfy.xyz/uploads/986b7597fa63e7112018494328f7064047e6d5aee4268b47db74a711ced20fb7.png",
+      "kind": "texture",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 623388,
+      "sha256": "986b7597fa63e7112018494328f7064047e6d5aee4268b47db74a711ced20fb7",
+      "contentType": "application/octet-stream",
+      "names": [
+        "Screenshot 2023-10-19 123844.png"
+      ],
+      "referencedBy": [
+        {
+          "uid": "oVFodrtKjGVArajqrtLun",
+          "component": "hyperfy-image",
+          "field": "$fields.src"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/9adf58af9655b3a8e71ab65ef712565f778bf8dcc85a4f29d2eb6e578e6a6481.mp3",
+      "url": "https://data.hyperfy.xyz/uploads/9adf58af9655b3a8e71ab65ef712565f778bf8dcc85a4f29d2eb6e578e6a6481.mp3",
+      "kind": "audio",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 1076012,
+      "sha256": "9adf58af9655b3a8e71ab65ef712565f778bf8dcc85a4f29d2eb6e578e6a6481",
+      "contentType": "application/octet-stream",
+      "names": [
+        "SHUTTER-enhanced-v2-90p.mp3"
+      ],
+      "referencedBy": [
+        {
+          "uid": "Ju4WldYTMvylMEo4kXoQb",
+          "component": "hyperfy-audio",
+          "field": "$fields.src"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/9axSIXVVUIYh8ikHZZsNS.png",
+      "url": "https://data.hyperfy.xyz/uploads/9axSIXVVUIYh8ikHZZsNS.png",
+      "kind": "texture",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 1507922,
+      "sha256": "702858538ec3bef12dd61c23de9d60aa485159152433396caa0dd644d1929b69",
+      "contentType": "application/octet-stream",
+      "names": [
+        "Untitled.png"
+      ],
+      "referencedBy": [
+        {
+          "uid": "Ysz1kjCxtR5lZ9FKXlvbx",
+          "component": "hyperfy-image",
+          "field": "$fields.src"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/9e6a0c5f54182f8e737bc3e2c5ad80118fba3a6dea144b741ce8a7513a81eee3.glb",
+      "url": "https://data.hyperfy.xyz/uploads/9e6a0c5f54182f8e737bc3e2c5ad80118fba3a6dea144b741ce8a7513a81eee3.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 362332,
+      "sha256": "9e6a0c5f54182f8e737bc3e2c5ad80118fba3a6dea144b741ce8a7513a81eee3",
+      "contentType": "application/octet-stream",
+      "names": [
+        "tabela_v3-4k-opt.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "3N53YCwJIproety7F04Iu",
+          "component": "hyperfy-model",
+          "field": "$fields.src"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/9f3404324915530920b50d4b48cd96805d9330b694fd0dfa8dd3fa55752145f5.glb",
+      "url": "https://data.hyperfy.xyz/uploads/9f3404324915530920b50d4b48cd96805d9330b694fd0dfa8dd3fa55752145f5.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 13040,
+      "sha256": "9f3404324915530920b50d4b48cd96805d9330b694fd0dfa8dd3fa55752145f5",
+      "contentType": "application/octet-stream",
+      "names": [
+        "256-usa-opt.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "wNSujL2gjgLwiQIOJjQRC",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model1"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/9f4cd77879330b41ebd7857b0b3ef9f18988afd6a6b6b365796de00549347ca3.gif",
+      "url": "https://data.hyperfy.xyz/uploads/9f4cd77879330b41ebd7857b0b3ef9f18988afd6a6b6b365796de00549347ca3.gif",
+      "kind": "texture",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 3215786,
+      "sha256": "9f4cd77879330b41ebd7857b0b3ef9f18988afd6a6b6b365796de00549347ca3",
+      "contentType": "application/octet-stream",
+      "names": [
+        "h3wFT1.gif"
+      ],
+      "referencedBy": [
+        {
+          "uid": "bS70PR8kd9ygh1A69GC3u",
+          "component": "hyperfy-image",
+          "field": "$fields.src"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/9fd044be4c58a1cd710423ba1a6b0398b5c2912fcb86127fa10a8035366032b6.png",
+      "url": "https://data.hyperfy.xyz/uploads/9fd044be4c58a1cd710423ba1a6b0398b5c2912fcb86127fa10a8035366032b6.png",
+      "kind": "texture",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 111746,
+      "sha256": "9fd044be4c58a1cd710423ba1a6b0398b5c2912fcb86127fa10a8035366032b6",
+      "contentType": "application/octet-stream",
+      "names": [
+        "LGO2 copyLOW.png"
+      ],
+      "referencedBy": [
+        {
+          "uid": "dwjQnhy3N3j0HRQsuTWaL",
+          "component": "hyperfy-particles",
+          "field": "$fields.textureSrc"
+        },
+        {
+          "uid": "Hk9kfDJKGqLBXQNrYZZDw",
+          "component": "hyperfy-image",
+          "field": "$fields.src"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/9fe1dc988cd5c7a1c909ad9404238230168ad20174c9fb2308b8e2dd4e98ab59.glb",
+      "url": "https://data.hyperfy.xyz/uploads/9fe1dc988cd5c7a1c909ad9404238230168ad20174c9fb2308b8e2dd4e98ab59.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 14484,
+      "sha256": "9fe1dc988cd5c7a1c909ad9404238230168ad20174c9fb2308b8e2dd4e98ab59",
+      "contentType": "application/octet-stream",
+      "names": [
+        "Tour Simulatuin-1.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "vB22qpTixacZnEQcVvzhe",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model1"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/E3NPjdqxM3hNOGO58RmWX.glb",
+      "url": "https://data.hyperfy.xyz/uploads/E3NPjdqxM3hNOGO58RmWX.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 17056,
+      "sha256": "637041b204c721a843865075b1f6cdf195b9eeab2ab55bbf29ff2559e1356fe4",
+      "contentType": "application/octet-stream",
+      "names": [
+        "DFW REIS DONUYORR.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "EuIwQL9NAxsBLe1LzhT9a",
+          "component": "hyperfy-model",
+          "field": "$fields.src"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/OJI7KNEqDkKr9vezxOU3I.mp4",
+      "url": "https://data.hyperfy.xyz/uploads/OJI7KNEqDkKr9vezxOU3I.mp4",
+      "kind": "video",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 60216102,
+      "sha256": "e8c6a1f8dc942f1510c98eeec52b28f731fbcb49097f581d71d09a5c0da546e6",
+      "contentType": "application/octet-stream",
+      "names": [
+        "Neue Dojo Serious 1.mp4"
+      ],
+      "referencedBy": [
+        {
+          "uid": "bTfdB0G3G0tqcAInC16o7",
+          "component": "hyperfy-video",
+          "field": "$fields.src"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/a3566ddd9e5fe4470d1d650473383caf4e514f828ed56a411950dca9677f2a6c.glb",
+      "url": "https://data.hyperfy.xyz/uploads/a3566ddd9e5fe4470d1d650473383caf4e514f828ed56a411950dca9677f2a6c.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 24584,
+      "sha256": "a3566ddd9e5fe4470d1d650473383caf4e514f828ed56a411950dca9677f2a6c",
+      "contentType": "application/octet-stream",
+      "names": [
+        "ai̇-w-smll-opt.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "orlz6gh8y1xzqoAYnGw5j",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model1"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/a40dabb2fb2805bf8b89149ef5ac76b03c88b559c8adf321759fdbbd2cade786.glb",
+      "url": "https://data.hyperfy.xyz/uploads/a40dabb2fb2805bf8b89149ef5ac76b03c88b559c8adf321759fdbbd2cade786.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 18248,
+      "sha256": "a40dabb2fb2805bf8b89149ef5ac76b03c88b559c8adf321759fdbbd2cade786",
+      "contentType": "application/octet-stream",
+      "names": [
+        "photo-shutter-opt.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "hwKwZ6UHkC13ISiJJbQZt",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model1"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/a49fd36d62e15879a1a0aabc265904b68bfce32201f3a1d3098656e9c99daa0e.glb",
+      "url": "https://data.hyperfy.xyz/uploads/a49fd36d62e15879a1a0aabc265904b68bfce32201f3a1d3098656e9c99daa0e.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 119836,
+      "sha256": "a49fd36d62e15879a1a0aabc265904b68bfce32201f3a1d3098656e9c99daa0e",
+      "contentType": "application/octet-stream",
+      "names": [
+        "idle4.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "drpqrpdKGo5iy7KVC7ojh",
+          "component": "hyperfy-npc",
+          "field": "$fields.emote"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/aec363b457abd2d5dbedd6b46bc2dcab49c1c3b58aeaad618be6c65578f2e4ef.mp3",
+      "url": "https://data.hyperfy.xyz/uploads/aec363b457abd2d5dbedd6b46bc2dcab49c1c3b58aeaad618be6c65578f2e4ef.mp3",
+      "kind": "audio",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 1028780,
+      "sha256": "aec363b457abd2d5dbedd6b46bc2dcab49c1c3b58aeaad618be6c65578f2e4ef",
+      "contentType": "application/octet-stream",
+      "names": [
+        "USA-enhanced-v2-90p.mp3"
+      ],
+      "referencedBy": [
+        {
+          "uid": "bAjNwH8wkBPiI0pGZx4Du",
+          "component": "hyperfy-audio",
+          "field": "$fields.src"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/b39fe1fc2602201cbcec5edc4e4374678aa0c7ebb5ac2487b043f37ef563b296.glb",
+      "url": "https://data.hyperfy.xyz/uploads/b39fe1fc2602201cbcec5edc4e4374678aa0c7ebb5ac2487b043f37ef563b296.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 2781532,
+      "sha256": "b39fe1fc2602201cbcec5edc4e4374678aa0c7ebb5ac2487b043f37ef563b296",
+      "contentType": "application/octet-stream",
+      "names": [
+        "nd (8)-opt.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "1QefwMHBY6qPsguqLAw7e",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model1"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/b5ec7374d86c14d1cd5622fe095e49709257012980f8f5633606ce2450f08c1c.glb",
+      "url": "https://data.hyperfy.xyz/uploads/b5ec7374d86c14d1cd5622fe095e49709257012980f8f5633606ce2450f08c1c.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 171348,
+      "sha256": "b5ec7374d86c14d1cd5622fe095e49709257012980f8f5633606ce2450f08c1c",
+      "contentType": "application/octet-stream",
+      "names": [
+        "lookaround.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "IsxoL7MCK791Lda8HCUVS",
+          "component": "hyperfy-npc",
+          "field": "$fields.emote"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/bb5dba7c6353bddf039c65d55bd469997bef6538c1f520c15f4e7106598634e7.mp3",
+      "url": "https://data.hyperfy.xyz/uploads/bb5dba7c6353bddf039c65d55bd469997bef6538c1f520c15f4e7106598634e7.mp3",
+      "kind": "audio",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 1093676,
+      "sha256": "bb5dba7c6353bddf039c65d55bd469997bef6538c1f520c15f4e7106598634e7",
+      "contentType": "application/octet-stream",
+      "names": [
+        "DRONE-enhanced-v2-90p.mp3"
+      ],
+      "referencedBy": [
+        {
+          "uid": "7WLTGUuFCKaHkMJNgLWBW",
+          "component": "hyperfy-audio",
+          "field": "$fields.src"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/bb8d1097973c3956b861bb5dbca6c00a043a93804dfeec56c046fb486489f7ff.glb",
+      "url": "https://data.hyperfy.xyz/uploads/bb8d1097973c3956b861bb5dbca6c00a043a93804dfeec56c046fb486489f7ff.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 20800,
+      "sha256": "bb8d1097973c3956b861bb5dbca6c00a043a93804dfeec56c046fb486489f7ff",
+      "contentType": "application/octet-stream",
+      "names": [
+        "wtdbts-ai̇-opt.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "n3teCQrssVz7AlcJqe5wY",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model1"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/be67acd379267c4e6a350988582450b8388692a1d1256c0988075e80327d3a65.jpg",
+      "url": "https://data.hyperfy.xyz/uploads/be67acd379267c4e6a350988582450b8388692a1d1256c0988075e80327d3a65.jpg",
+      "kind": "texture",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 410779,
+      "sha256": "be67acd379267c4e6a350988582450b8388692a1d1256c0988075e80327d3a65",
+      "contentType": "application/octet-stream",
+      "names": [
+        "background-press release-low-nois-zehiry dha da low.jpg"
+      ],
+      "referencedBy": [
+        {
+          "uid": "qbNyIvgBFULzljTjG5G5Z",
+          "component": "hyperfy-web",
+          "field": "$fields.image"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/c003df779d0dc7ef5f927024aee8eeb9b20866b95abe4735493a8dd5ccb7b057.glb",
+      "url": "https://data.hyperfy.xyz/uploads/c003df779d0dc7ef5f927024aee8eeb9b20866b95abe4735493a8dd5ccb7b057.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 19236,
+      "sha256": "c003df779d0dc7ef5f927024aee8eeb9b20866b95abe4735493a8dd5ccb7b057",
+      "contentType": "application/octet-stream",
+      "names": [
+        "wtdbts-room-opt (1).glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "iWYfPneW8g1911eplu4S4",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model1"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/c09a0d1468394bb178569c887b66ae55318851cb1ad09354f9be91ad2e91a86f.glb",
+      "url": "https://data.hyperfy.xyz/uploads/c09a0d1468394bb178569c887b66ae55318851cb1ad09354f9be91ad2e91a86f.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 19180,
+      "sha256": "c09a0d1468394bb178569c887b66ae55318851cb1ad09354f9be91ad2e91a86f",
+      "contentType": "application/octet-stream",
+      "names": [
+        "256-irlp-room2-2-opt.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "H09Dhi1q4vpE0IQkFQrgd",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model1"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/c177ee125efe0b54f5786f37f2adf585f635b14f381fdc384765e46482c70b4f.glb",
+      "url": "https://data.hyperfy.xyz/uploads/c177ee125efe0b54f5786f37f2adf585f635b14f381fdc384765e46482c70b4f.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 1234396,
+      "sha256": "c177ee125efe0b54f5786f37f2adf585f635b14f381fdc384765e46482c70b4f",
+      "contentType": "application/octet-stream",
+      "names": [
+        "photo-shutter-opt.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "hwKwZ6UHkC13ISiJJbQZt",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model2"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/cba81135746bf10d860ef6aa7256ea8e10192718ece225b96aa2278cb063a703.mp3",
+      "url": "https://data.hyperfy.xyz/uploads/cba81135746bf10d860ef6aa7256ea8e10192718ece225b96aa2278cb063a703.mp3",
+      "kind": "audio",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 1551980,
+      "sha256": "cba81135746bf10d860ef6aa7256ea8e10192718ece225b96aa2278cb063a703",
+      "contentType": "application/octet-stream",
+      "names": [
+        "FUTURE WABİ SABİ-enhanced-v2-90p.mp3"
+      ],
+      "referencedBy": [
+        {
+          "uid": "A7sawJjdEFXj646f3nIX3",
+          "component": "hyperfy-audio",
+          "field": "$fields.src"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/cca1a252e28998b809b415f5e83c8c0003a4013c4c774908e0071339ed600ca1.glb",
+      "url": "https://data.hyperfy.xyz/uploads/cca1a252e28998b809b415f5e83c8c0003a4013c4c774908e0071339ed600ca1.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 277496,
+      "sha256": "cca1a252e28998b809b415f5e83c8c0003a4013c4c774908e0071339ed600ca1",
+      "contentType": "application/octet-stream",
+      "names": [
+        "v2-opt.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "NIasRENyjypfXRI73lvGZ",
+          "component": "hyperfy-model",
+          "field": "$fields.src"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/d2df83ea44c1e19a250e437f9338ddb78da1e1a3682b2db3241c0a3bec8c5a87.mp3",
+      "url": "https://data.hyperfy.xyz/uploads/d2df83ea44c1e19a250e437f9338ddb78da1e1a3682b2db3241c0a3bec8c5a87.mp3",
+      "kind": "audio",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 4936026,
+      "sha256": "d2df83ea44c1e19a250e437f9338ddb78da1e1a3682b2db3241c0a3bec8c5a87",
+      "contentType": "application/octet-stream",
+      "names": [
+        "Mort Garson - Plantasia.mp3"
+      ],
+      "referencedBy": [
+        {
+          "uid": "HzrXTefUr4tMNX2WZy1DY",
+          "component": "hyperfy-audio",
+          "field": "$fields.src"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/d5abb6ebca6d24750c8035b7ef372745db1b0dbb4978c6d78bb763e95b8eb3fb.glb",
+      "url": "https://data.hyperfy.xyz/uploads/d5abb6ebca6d24750c8035b7ef372745db1b0dbb4978c6d78bb763e95b8eb3fb.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 852236,
+      "sha256": "d5abb6ebca6d24750c8035b7ef372745db1b0dbb4978c6d78bb763e95b8eb3fb",
+      "contentType": "application/octet-stream",
+      "names": [
+        "frame_altlik-opt (1).glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "rSNFOWbsctYG3Q1SXpaPP",
+          "component": "hyperfy-model",
+          "field": "$fields.src"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/d6117d0f0d100f48f4a952c1d988acf3f774e94dcae02cf171653cc705b31a5a.mp3",
+      "url": "https://data.hyperfy.xyz/uploads/d6117d0f0d100f48f4a952c1d988acf3f774e94dcae02cf171653cc705b31a5a.mp3",
+      "kind": "audio",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 389666,
+      "sha256": "d6117d0f0d100f48f4a952c1d988acf3f774e94dcae02cf171653cc705b31a5a",
+      "contentType": "application/octet-stream",
+      "names": [
+        "Heaven meme sound(no copywrite).mp3"
+      ],
+      "referencedBy": [
+        {
+          "uid": "YrcXwetg13B6AXO3wPxRU",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.audio2"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/d72cf69827c16d87dcf31b753927c6039ff73003dbc88467db93ad307a5ee59a.mp3",
+      "url": "https://data.hyperfy.xyz/uploads/d72cf69827c16d87dcf31b753927c6039ff73003dbc88467db93ad307a5ee59a.mp3",
+      "kind": "audio",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 3762488,
+      "sha256": "d72cf69827c16d87dcf31b753927c6039ff73003dbc88467db93ad307a5ee59a",
+      "contentType": "application/octet-stream",
+      "names": [
+        "QUCKTOUR-sound.mp3"
+      ],
+      "referencedBy": [
+        {
+          "uid": "kBDtWfeq2RiYZ31Lr8d4E",
+          "component": "hyperfy-audio",
+          "field": "$fields.src"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/d77c5bac8699b56dd0198346ef1a270a2e464955806de36846c41bffe45b1a0f.glb",
+      "url": "https://data.hyperfy.xyz/uploads/d77c5bac8699b56dd0198346ef1a270a2e464955806de36846c41bffe45b1a0f.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 820000,
+      "sha256": "d77c5bac8699b56dd0198346ef1a270a2e464955806de36846c41bffe45b1a0f",
+      "contentType": "application/octet-stream",
+      "names": [
+        "bosbina-1d-toursimu-1tranbasedhums-v2-opt-v3.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "3TzDFIG6O1A0jBsa1Mudk",
+          "component": "hyperfy-model",
+          "field": "$fields.src"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/d8e95a45f90f0263ab4822d5e56f4b0b1b7e7513fc2abf601e8156b6f08142b3.glb",
+      "url": "https://data.hyperfy.xyz/uploads/d8e95a45f90f0263ab4822d5e56f4b0b1b7e7513fc2abf601e8156b6f08142b3.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 1921972,
+      "sha256": "d8e95a45f90f0263ab4822d5e56f4b0b1b7e7513fc2abf601e8156b6f08142b3",
+      "contentType": "application/octet-stream",
+      "names": [
+        "ai̇-w-smll-opt.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "orlz6gh8y1xzqoAYnGw5j",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model2"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/da22e18b7854cff93570874d5c37358077fa25ac1a0ee25694fbbbf55e95ba38.mp3",
+      "url": "https://data.hyperfy.xyz/uploads/da22e18b7854cff93570874d5c37358077fa25ac1a0ee25694fbbbf55e95ba38.mp3",
+      "kind": "audio",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 1239980,
+      "sha256": "da22e18b7854cff93570874d5c37358077fa25ac1a0ee25694fbbbf55e95ba38",
+      "contentType": "application/octet-stream",
+      "names": [
+        "MONALISA-enhanced-v2-90p.mp3"
+      ],
+      "referencedBy": [
+        {
+          "uid": "W8aNBphEaD62TuHQE6qjR",
+          "component": "hyperfy-audio",
+          "field": "$fields.src"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/dd4b37253cf4eb7583e9f147cffc163407d790dba62b558b022246d184762f84.jpg",
+      "url": "https://data.hyperfy.xyz/uploads/dd4b37253cf4eb7583e9f147cffc163407d790dba62b558b022246d184762f84.jpg",
+      "kind": "texture",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 12784,
+      "sha256": "dd4b37253cf4eb7583e9f147cffc163407d790dba62b558b022246d184762f84",
+      "contentType": "application/octet-stream",
+      "names": [
+        "animate.jpg"
+      ],
+      "referencedBy": [
+        {
+          "uid": "G68P55v0jazfyidg1CE9s",
+          "component": "hyperfy-image",
+          "field": "$fields.src"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/dff47e60973fc2f72ea899b16824a4d2d02a78102992f1d95649faca59deed1d.glb",
+      "url": "https://data.hyperfy.xyz/uploads/dff47e60973fc2f72ea899b16824a4d2d02a78102992f1d95649faca59deed1d.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 1369712,
+      "sha256": "dff47e60973fc2f72ea899b16824a4d2d02a78102992f1d95649faca59deed1d",
+      "contentType": "application/octet-stream",
+      "names": [
+        "irlp-room2-2-opt.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "H09Dhi1q4vpE0IQkFQrgd",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model2"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/e016da4a3e2a86336a0ca11a7b31d2e2e0d14f750def22e312bf2d8406b591da.glb",
+      "url": "https://data.hyperfy.xyz/uploads/e016da4a3e2a86336a0ca11a7b31d2e2e0d14f750def22e312bf2d8406b591da.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 1150568,
+      "sha256": "e016da4a3e2a86336a0ca11a7b31d2e2e0d14f750def22e312bf2d8406b591da",
+      "contentType": "application/octet-stream",
+      "names": [
+        "religiousrobotics-opt.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "VQUDUDGo5jIObFrl0BMsu",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model2"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/e2b310b9ecaaad61af306fba989d62a4a2973189557f4c7c852a57d15d39971a.mp3",
+      "url": "https://data.hyperfy.xyz/uploads/e2b310b9ecaaad61af306fba989d62a4a2973189557f4c7c852a57d15d39971a.mp3",
+      "kind": "audio",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 6970767,
+      "sha256": "e2b310b9ecaaad61af306fba989d62a4a2973189557f4c7c852a57d15d39971a",
+      "contentType": "application/octet-stream",
+      "names": [
+        "Nobuto Suda - One.mp3"
+      ],
+      "referencedBy": [
+        {
+          "uid": "SVyoN5lHkbQz4Dsww9Ezz",
+          "component": "hyperfy-audio",
+          "field": "$fields.src"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/e63bfcf924ad52677bbf5fb8995eb46acec5687b32b887dee35bcfa41d60d3ed.glb",
+      "url": "https://data.hyperfy.xyz/uploads/e63bfcf924ad52677bbf5fb8995eb46acec5687b32b887dee35bcfa41d60d3ed.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 445388,
+      "sha256": "e63bfcf924ad52677bbf5fb8995eb46acec5687b32b887dee35bcfa41d60d3ed",
+      "contentType": "application/octet-stream",
+      "names": [
+        "d0.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "hpBylopR8YvBQj8Fn05Pl",
+          "component": "hyperfy-emote",
+          "field": "$fields.emote"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/eabf1e14ca8638b2e2f098589e3326d08eef1e130617e5f95560e3f41ac1326c.glb",
+      "url": "https://data.hyperfy.xyz/uploads/eabf1e14ca8638b2e2f098589e3326d08eef1e130617e5f95560e3f41ac1326c.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 2538800,
+      "sha256": "eabf1e14ca8638b2e2f098589e3326d08eef1e130617e5f95560e3f41ac1326c",
+      "contentType": "application/octet-stream",
+      "names": [
+        "rr-room-opt.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "KUA1AAzXCRd9xW5wf4pfQ",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model2"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/eb2f2abea63596f90cb8acc1244f44096bf0679b4962b4c27a32931446f360de.glb",
+      "url": "https://data.hyperfy.xyz/uploads/eb2f2abea63596f90cb8acc1244f44096bf0679b4962b4c27a32931446f360de.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 18644,
+      "sha256": "eb2f2abea63596f90cb8acc1244f44096bf0679b4962b4c27a32931446f360de",
+      "contentType": "application/octet-stream",
+      "names": [
+        "religiousrobotics-opt.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "VQUDUDGo5jIObFrl0BMsu",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model1"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/f02618f033f1d56972e95c56eda00e56bd3142c3565ff0708cf684da350003db.mp3",
+      "url": "https://data.hyperfy.xyz/uploads/f02618f033f1d56972e95c56eda00e56bd3142c3565ff0708cf684da350003db.mp3",
+      "kind": "audio",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 393343,
+      "sha256": "f02618f033f1d56972e95c56eda00e56bd3142c3565ff0708cf684da350003db",
+      "contentType": "application/octet-stream",
+      "names": [
+        "collector appeared.mp3"
+      ],
+      "referencedBy": [
+        {
+          "uid": "feyRgsGnhppg4I1vNHG60",
+          "component": "hyperfy-audio",
+          "field": "$fields.src"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/f1849026ea095a9612ad72c32228be36d329a1da0ba6efa81a61cf9bb037d030.glb",
+      "url": "https://data.hyperfy.xyz/uploads/f1849026ea095a9612ad72c32228be36d329a1da0ba6efa81a61cf9bb037d030.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 795604,
+      "sha256": "f1849026ea095a9612ad72c32228be36d329a1da0ba6efa81a61cf9bb037d030",
+      "contentType": "application/octet-stream",
+      "names": [
+        "davinci-opt.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "ZohEF44bF9sGUm4Wt4n4T",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model2"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/f28f1391ca6728346689578863c71ae2be3486c21e20a370c6731c14d17eb8c2.glb",
+      "url": "https://data.hyperfy.xyz/uploads/f28f1391ca6728346689578863c71ae2be3486c21e20a370c6731c14d17eb8c2.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 1947276,
+      "sha256": "f28f1391ca6728346689578863c71ae2be3486c21e20a370c6731c14d17eb8c2",
+      "contentType": "application/octet-stream",
+      "names": [
+        "digitalpaint-opt.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "t4MEYyLigeyBz5gtRUPgo",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model2"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/f3f023a7bdc03c5457b1041b0ec716bc6d5522e1d357195e680e56ca565d328c.glb",
+      "url": "https://data.hyperfy.xyz/uploads/f3f023a7bdc03c5457b1041b0ec716bc6d5522e1d357195e680e56ca565d328c.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 27072,
+      "sha256": "f3f023a7bdc03c5457b1041b0ec716bc6d5522e1d357195e680e56ca565d328c",
+      "contentType": "application/octet-stream",
+      "names": [
+        "kori̇dor-general-opt.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "46NJQYe6zxzeYo7QN3KDe",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model2"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/f537a782e231e9ca45892ef36b2719732438a8840b465a222afb89b1e2786d4e.glb",
+      "url": "https://data.hyperfy.xyz/uploads/f537a782e231e9ca45892ef36b2719732438a8840b465a222afb89b1e2786d4e.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 1917864,
+      "sha256": "f537a782e231e9ca45892ef36b2719732438a8840b465a222afb89b1e2786d4e",
+      "contentType": "application/octet-stream",
+      "names": [
+        "wtdbts-room-opt.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "iWYfPneW8g1911eplu4S4",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model2"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/f5cfa18d3f558b28f0aea99fcc912946325d282f48d41299db7628e4aa7fe8b6.mp3",
+      "url": "https://data.hyperfy.xyz/uploads/f5cfa18d3f558b28f0aea99fcc912946325d282f48d41299db7628e4aa7fe8b6.mp3",
+      "kind": "audio",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 1196012,
+      "sha256": "f5cfa18d3f558b28f0aea99fcc912946325d282f48d41299db7628e4aa7fe8b6",
+      "contentType": "application/octet-stream",
+      "names": [
+        "digital paint-enhanced-v2-90p.mp3"
+      ],
+      "referencedBy": [
+        {
+          "uid": "866yuC1QtYQ08WSF3uSjl",
+          "component": "hyperfy-audio",
+          "field": "$fields.src"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/f5d4327b21b7bba54bb44423f6a37302e2afa5554dd2dbb750ca601fb351d566.glb",
+      "url": "https://data.hyperfy.xyz/uploads/f5d4327b21b7bba54bb44423f6a37302e2afa5554dd2dbb750ca601fb351d566.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 1761908,
+      "sha256": "f5d4327b21b7bba54bb44423f6a37302e2afa5554dd2dbb750ca601fb351d566",
+      "contentType": "application/octet-stream",
+      "names": [
+        "photo-street-opt.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "m6lGAFg2frl3R5IDd1cpl",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model2"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/f9fecaa17c18e61880fbcd7a0bd3dcc0c6748c9379dafde4ccba967392cdc37f.glb",
+      "url": "https://data.hyperfy.xyz/uploads/f9fecaa17c18e61880fbcd7a0bd3dcc0c6748c9379dafde4ccba967392cdc37f.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 485972,
+      "sha256": "f9fecaa17c18e61880fbcd7a0bd3dcc0c6748c9379dafde4ccba967392cdc37f",
+      "contentType": "application/octet-stream",
+      "names": [
+        "d1.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "rsgAAD02VSXqU5vuUC0OV",
+          "component": "hyperfy-emote",
+          "field": "$fields.emote"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/fd35dc85c1344302cd8a786ea1745401f3b3e8aea3391aef7d68ba372053edaa.glb",
+      "url": "https://data.hyperfy.xyz/uploads/fd35dc85c1344302cd8a786ea1745401f3b3e8aea3391aef7d68ba372053edaa.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 21828,
+      "sha256": "fd35dc85c1344302cd8a786ea1745401f3b3e8aea3391aef7d68ba372053edaa",
+      "contentType": "application/octet-stream",
+      "names": [
+        "dt-rework-opt.glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "R6Gv7rFCBWWuUZDT8vCMv",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model1"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/uploads/fe9cde9a7964a72bbb45e7369d5df45df4aab81c29ab331600580309de517fd2.glb",
+      "url": "https://data.hyperfy.xyz/uploads/fe9cde9a7964a72bbb45e7369d5df45df4aab81c29ab331600580309de517fd2.glb",
+      "kind": "model",
+      "group": "world",
+      "required": true,
+      "status": "ok",
+      "bytes": 2944980,
+      "sha256": "fe9cde9a7964a72bbb45e7369d5df45df4aab81c29ab331600580309de517fd2",
+      "contentType": "application/octet-stream",
+      "names": [
+        "COLLECTORS-CONF (1).glb"
+      ],
+      "referencedBy": [
+        {
+          "uid": "rYT4XFcNRlGJLTGuWxVLe",
+          "component": "hyperfy-smart-object",
+          "field": "$fields.model2"
+        }
+      ]
+    },
+    {
+      "path": "data.hyperfy.xyz/world-images/world-1194.png",
+      "url": "https://data.hyperfy.xyz/world-images/world-1194.png",
+      "kind": "texture",
+      "group": "world-image",
+      "required": true,
+      "status": "ok",
+      "bytes": 81607,
+      "sha256": "1996aa0443e6fcc791de0225c408077f4dfbf598caf9bab9e0a0b7bb18ae581e",
+      "contentType": "application/octet-stream",
+      "names": [],
+      "referencedBy": [
+        {
+          "world": "world-1194",
+          "field": "image"
+        }
+      ]
+    },
+    {
+      "path": "fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxM.woff",
+      "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxM.woff",
+      "kind": "other",
+      "group": "runtime",
+      "required": false,
+      "status": "ok",
+      "bytes": 19824,
+      "sha256": "1570f866bf6eae82041e407280894a86ad2b8b275e01908ae156914dc693a4ed",
+      "contentType": "font/woff",
+      "names": [],
+      "referencedBy": []
+    },
+    {
+      "path": "fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmEU9vAA.woff",
+      "url": "https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmEU9vAA.woff",
+      "kind": "other",
+      "group": "runtime",
+      "required": false,
+      "status": "ok",
+      "bytes": 65492,
+      "sha256": "c93f4332daa92f95a2c2446599d6cf9e87b00b20d60db827af63b0e4a3feb22b",
+      "contentType": "font/woff",
+      "names": [],
+      "referencedBy": []
+    },
+    {
+      "path": "fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmWUlvAA.woff",
+      "url": "https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmWUlvAA.woff",
+      "kind": "other",
+      "group": "runtime",
+      "required": false,
+      "status": "ok",
+      "bytes": 65292,
+      "sha256": "61e16263ed1227e721bffd26891b13a4d07c5140249fa78f297b51845ee169db",
+      "contentType": "font/woff",
+      "names": [],
+      "referencedBy": []
+    },
+    {
+      "path": "fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Me5g.woff",
+      "url": "https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Me5g.woff",
+      "kind": "other",
+      "group": "runtime",
+      "required": false,
+      "status": "ok",
+      "bytes": 65244,
+      "sha256": "55110586d3719c3e8bdaa21f06e4cc1c0a7451abbae662344cbd4411536b585f",
+      "contentType": "font/woff",
+      "names": [],
+      "referencedBy": []
+    },
+    {
+      "path": "hyperfy.io/avatar@fall.glb",
+      "url": "https://hyperfy.io/avatar@fall.glb",
+      "kind": "model",
+      "group": "runtime",
+      "required": false,
+      "status": "ok",
+      "bytes": 59992,
+      "sha256": "444f10eb6781bc1e4b83c1c08a8cfea10f8b1675e861491c9a95e2a7fb0c50d5",
+      "contentType": "model/gltf-binary",
+      "names": [],
+      "referencedBy": []
+    },
+    {
+      "path": "hyperfy.io/avatar@float.glb",
+      "url": "https://hyperfy.io/avatar@float.glb",
+      "kind": "model",
+      "group": "runtime",
+      "required": false,
+      "status": "ok",
+      "bytes": 82096,
+      "sha256": "50ea4bb4623bc19a47efedec8d56a83b091f8fce50cde640f254953f1940cc26",
+      "contentType": "model/gltf-binary",
+      "names": [],
+      "referencedBy": []
+    },
+    {
+      "path": "hyperfy.io/avatar@idle.glb",
+      "url": "https://hyperfy.io/avatar@idle.glb",
+      "kind": "model",
+      "group": "runtime",
+      "required": false,
+      "status": "ok",
+      "bytes": 88600,
+      "sha256": "c56b4f79ae304b31ee0f81ebd66b8f5a906ff508d739bf9deeafe7b68484efbe",
+      "contentType": "model/gltf-binary",
+      "names": [],
+      "referencedBy": []
+    },
+    {
+      "path": "hyperfy.io/avatar@run-back.glb",
+      "url": "https://hyperfy.io/avatar@run-back.glb",
+      "kind": "model",
+      "group": "runtime",
+      "required": false,
+      "status": "ok",
+      "bytes": 63920,
+      "sha256": "e38cda2ab0a51d0a869fcb5c97a056abb264f8d8c72afcab460242a378f95e1b",
+      "contentType": "model/gltf-binary",
+      "names": [],
+      "referencedBy": []
+    },
+    {
+      "path": "hyperfy.io/avatar@run-left.glb",
+      "url": "https://hyperfy.io/avatar@run-left.glb",
+      "kind": "model",
+      "group": "runtime",
+      "required": false,
+      "status": "ok",
+      "bytes": 65016,
+      "sha256": "53fcdfe84b63711cc028c307aed233cdfd11c46a013c0543f5aa1d89a8f68547",
+      "contentType": "model/gltf-binary",
+      "names": [],
+      "referencedBy": []
+    },
+    {
+      "path": "hyperfy.io/avatar@run-right.glb",
+      "url": "https://hyperfy.io/avatar@run-right.glb",
+      "kind": "model",
+      "group": "runtime",
+      "required": false,
+      "status": "ok",
+      "bytes": 65016,
+      "sha256": "5d3be4b5fbf75eef65333db72c9cb1a9c39ea8812db7d2f5317c506e4829d838",
+      "contentType": "model/gltf-binary",
+      "names": [],
+      "referencedBy": []
+    },
+    {
+      "path": "hyperfy.io/avatar@run.glb",
+      "url": "https://hyperfy.io/avatar@run.glb",
+      "kind": "model",
+      "group": "runtime",
+      "required": false,
+      "status": "ok",
+      "bytes": 64184,
+      "sha256": "13f8c3cdbd144211a04f212eb53b406c2d09bd868363d7c2ad393c340ad3e929",
+      "contentType": "model/gltf-binary",
+      "names": [],
+      "referencedBy": []
+    },
+    {
+      "path": "hyperfy.io/avatar@seat.glb",
+      "url": "https://hyperfy.io/avatar@seat.glb",
+      "kind": "model",
+      "group": "runtime",
+      "required": false,
+      "status": "ok",
+      "bytes": 78560,
+      "sha256": "bfcb0e35352ede3c059f97f9c453a1dd3eefa715f5903f5783733977fb18ff8e",
+      "contentType": "model/gltf-binary",
+      "names": [],
+      "referencedBy": []
+    },
+    {
+      "path": "hyperfy.io/avatar@walk-back.glb",
+      "url": "https://hyperfy.io/avatar@walk-back.glb",
+      "kind": "model",
+      "group": "runtime",
+      "required": false,
+      "status": "ok",
+      "bytes": 66400,
+      "sha256": "0c7d6c4a4060894599c771c8fe3f974d7e4760ba04cf580eea8fadeccd1fb8d0",
+      "contentType": "model/gltf-binary",
+      "names": [],
+      "referencedBy": []
+    },
+    {
+      "path": "hyperfy.io/avatar@walk-left.glb",
+      "url": "https://hyperfy.io/avatar@walk-left.glb",
+      "kind": "model",
+      "group": "runtime",
+      "required": false,
+      "status": "ok",
+      "bytes": 68468,
+      "sha256": "31cfb552a180bc45af94de4f2d8d31e0f88092ecc08f10a9f51dc61caf36bdf3",
+      "contentType": "model/gltf-binary",
+      "names": [],
+      "referencedBy": []
+    },
+    {
+      "path": "hyperfy.io/avatar@walk-right.glb",
+      "url": "https://hyperfy.io/avatar@walk-right.glb",
+      "kind": "model",
+      "group": "runtime",
+      "required": false,
+      "status": "ok",
+      "bytes": 68468,
+      "sha256": "60985ce782825162a3e19d6790aae74328362d143e5693f739bd30e5f6de13de",
+      "contentType": "model/gltf-binary",
+      "names": [],
+      "referencedBy": []
+    },
+    {
+      "path": "hyperfy.io/avatar@walk.glb",
+      "url": "https://hyperfy.io/avatar@walk.glb",
+      "kind": "model",
+      "group": "runtime",
+      "required": false,
+      "status": "ok",
+      "bytes": 63268,
+      "sha256": "462774a80a7a9111459f0041578bf02818ed2748ad7a05a65cd16d68f800e887",
+      "contentType": "model/gltf-binary",
+      "names": [],
+      "referencedBy": []
+    }
+  ],
+  "api": [
+    "api.hyperfy.io/entities/basic-emotes.json",
+    "api.hyperfy.io/entities/hyperfy-audio.json",
+    "api.hyperfy.io/entities/hyperfy-avatar.json",
+    "api.hyperfy.io/entities/hyperfy-camera.json",
+    "api.hyperfy.io/entities/hyperfy-command.json",
+    "api.hyperfy.io/entities/hyperfy-effects.json",
+    "api.hyperfy.io/entities/hyperfy-emote.json",
+    "api.hyperfy.io/entities/hyperfy-image.json",
+    "api.hyperfy.io/entities/hyperfy-keypad.json",
+    "api.hyperfy.io/entities/hyperfy-model.json",
+    "api.hyperfy.io/entities/hyperfy-npc.json",
+    "api.hyperfy.io/entities/hyperfy-particles.json",
+    "api.hyperfy.io/entities/hyperfy-place.json",
+    "api.hyperfy.io/entities/hyperfy-receiver.json",
+    "api.hyperfy.io/entities/hyperfy-seat.json",
+    "api.hyperfy.io/entities/hyperfy-sky.json",
+    "api.hyperfy.io/entities/hyperfy-smart-object.json",
+    "api.hyperfy.io/entities/hyperfy-spawn.json",
+    "api.hyperfy.io/entities/hyperfy-text.json",
+    "api.hyperfy.io/entities/hyperfy-video.json",
+    "api.hyperfy.io/entities/hyperfy-web.json",
+    "api.hyperfy.io/entities/hyperfy-zone.json",
+    "api.hyperfy.io/worlds/world-1194.json"
+  ]
+}
