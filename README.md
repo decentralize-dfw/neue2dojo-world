@@ -17,7 +17,7 @@ This repository uses the same tools as [decentralize-dfw/theaters](https://githu
 `web/` is the museum site Neue² Dojo used at neue2dojo.com, later https://yigitozen8.wixsite.com/website-2, rebuilt as plain HTML by `tools/wix_rebuild.mjs`.
 
 - **Pages:** the home page and every page linked from its menus. The members-only pages *ownership* and *membership* could not be copied (HTTP 403).
-- **Content:** each page keeps its texts, images, boxes, lines and menus in the same places and styles.
+- **Content:** each page keeps its texts, images, boxes, lines and menus in the same places and styles, as the site shows them in a 1920-pixel window. Narrower windows scale the page down to fit (`web/site.js`).
 - **No Wix code:** the pages carry no Wix scripts, styles or banner.
 - **Media:** only images and fonts come from Wix, downloaded into `web/media/` and `web/fonts/`.
 - **Address:** https://xrweb.studio/neue2dojo-world/web/

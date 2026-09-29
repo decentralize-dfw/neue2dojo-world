@@ -1,6 +1,6 @@
 html, body { margin: 0; padding: 0; }
 body { overflow-x: hidden; }
-.page { position: relative; width: 100%; min-width: 980px; }
+.page { position: relative; width: 100%; }
 .i { position: absolute; box-sizing: border-box; }
 .i > a { color: inherit; text-decoration: inherit; display: contents; }
 .t { overflow-wrap: break-word; }

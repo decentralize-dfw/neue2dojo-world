@@ -3,7 +3,7 @@
 // from the home page (texts, images, videos, boxes and lines, backgrounds,
 // embeds, menus), in the same place and style, with no Wix code.
 //
-// Each page is opened in Chromium (Playwright) at 1280x800 and scrolled to
+// Each page is opened in Chromium (Playwright) at 1920x1080 and scrolled to
 // the end so every lazy image loads. Every visible element is then measured
 // and written out as an absolutely positioned element of a new page:
 //   - texts keep their markup (paragraphs, spans, links) with the styles they
@@ -34,7 +34,7 @@ if (!SITE || !OUT) {
 }
 const BASE = SITE.replace(/\/+$/, '')
 const CHROME = process.env.PLAYWRIGHT_CHROMIUM || '/opt/pw-browsers/chromium-1194/chrome-linux/chrome'
-const VIEWPORT = { width: 1280, height: 800 }
+const VIEWPORT = { width: 1920, height: 1080 } // wide enough that nothing runs off the sides
 const MEDIA_RE = /(?:https?:)?\/\/(?:static\.wixstatic\.com|video\.wixstatic\.com)\/[^\s"'()<>\\]*/g
 const FONT_RE = /(?:https?:)?\/\/(?:static\.parastorage\.com|static\.wixstatic\.com|fonts\.gstatic\.com)\/[^\s"'()<>\\]*\.(?:woff2?|ttf|otf|eot)(?:\?[^\s"'()<>\\]*)?/g
 
@@ -47,7 +47,9 @@ const absolute = u => (u.startsWith('//') ? 'https:' + u : u).replace(/&amp;/g, 
 // a list of positioned items.
 function extractPage() {
   const vw = document.documentElement.clientWidth
-  const sy = window.scrollY
+  // The free-site banner pushes the page down; the copy has no banner.
+  const banner = document.querySelector('#WIX_ADS')
+  const sy = window.scrollY - (banner && banner.getBoundingClientRect().height > 0 ? banner.getBoundingClientRect().bottom : 0)
   const TEXT = ['font-family', 'font-size', 'font-weight', 'font-style', 'line-height', 'letter-spacing', 'word-spacing', 'color',
     'text-align', 'text-decoration-line', 'text-decoration-color', 'text-transform', 'text-shadow', 'text-indent', 'white-space', 'direction']
   const BLOCK = ['margin-top', 'margin-bottom', 'margin-left', 'margin-right', 'padding-top', 'padding-bottom', 'padding-left', 'padding-right', 'list-style-type', 'list-style-position']
@@ -81,10 +83,13 @@ function extractPage() {
       g.transform = cs.transform
     }
     // Cropped by an ancestor (overflow hidden): keep the visible part only.
+    // The page-wide containers only crop at the window's edges, which the
+    // copy does not have.
     for (let a = e.parentElement; a && a !== document.body; a = a.parentElement) {
       const acs = getComputedStyle(a)
       if (acs.overflowX === 'visible' && acs.overflowY === 'visible') continue
       const ar = a.getBoundingClientRect()
+      if (ar.width >= vw - 2) continue
       const clip = { top: Math.max(0, ar.top - r.top), left: Math.max(0, ar.left - r.left), bottom: Math.max(0, r.bottom - ar.bottom), right: Math.max(0, r.right - ar.right) }
       if (clip.top || clip.left || clip.bottom || clip.right) {
         if (clip.top + clip.bottom >= r.height || clip.left + clip.right >= r.width) return null // fully hidden
@@ -201,7 +206,7 @@ function extractPage() {
     description: document.querySelector('meta[name="description"]')?.content || '',
     lang: document.documentElement.lang || 'en',
     vw,
-    height: document.documentElement.scrollHeight,
+    height: document.documentElement.scrollHeight - (window.scrollY - sy),
     background: !transparent(bodyCs.backgroundColor) ? bodyCs.backgroundColor : !transparent(htmlCs.backgroundColor) ? htmlCs.backgroundColor : '#fff',
     fonts: [...new Set(items.flatMap(i => [i.style, i.html].filter(Boolean).join(' ').match(/font-family:[^;"]+/g) || []).flatMap(f => f.slice(12).split(',').map(s => s.trim().replace(/^["']|["']$/g, ''))))],
     styleSheets: [...document.querySelectorAll('link[rel="stylesheet"]')].map(l => l.href),
@@ -291,13 +296,28 @@ function renderItem(item, vw, z) {
 
 const SITE_CSS = `html, body { margin: 0; padding: 0; }
 body { overflow-x: hidden; }
-.page { position: relative; width: 100%; min-width: 980px; }
+.page { position: relative; width: 100%; }
 .i { position: absolute; box-sizing: border-box; }
 .i > a { color: inherit; text-decoration: inherit; display: contents; }
 .t { overflow-wrap: break-word; }
 .t p, .t h1, .t h2, .t h3, .t h4, .t h5, .t h6 { margin: 0; }
 .t a { color: inherit; }
 .m img, .m video, .m iframe { display: block; width: 100%; height: 100%; border: 0; }
+`
+
+// Scales the page to fit a window narrower than its content.
+const SITE_JS = `(function () {
+  var page = document.querySelector('.page')
+  if (!page) return
+  var width = +page.getAttribute('data-width') || 980
+  function fit() {
+    var scale = Math.min(1, document.documentElement.clientWidth / width)
+    page.style.zoom = scale < 1 ? scale : ''
+    page.style.width = scale < 1 ? (100 / scale) + '%' : ''
+  }
+  fit()
+  window.addEventListener('resize', fit)
+})()
 `
 
 // ------------------------------------------------------------ main
@@ -368,6 +388,9 @@ async function main() {
       cssSources.add('inline:' + data.inlineCss)
 
       const up = slug ? '../' : ''
+      // Width the content needs, centred: narrower windows scale the page
+      // down (site.js) instead of cutting it off.
+      const designWidth = Math.ceil(2 * Math.max(490, ...data.items.filter(i => !(Math.abs(i.x) <= 1 && Math.abs(i.w - data.vw) <= 2)).map(i => Math.max(data.vw / 2 - i.x, i.x + i.w - data.vw / 2))))
       let body = data.items.map((item, i) => renderItem(item, data.vw, i + 1 + item.layer * 100000)).join('\n')
       // Links between the copied pages point at the copies; any other link
       // (including pages not copied) stays as it is.
@@ -383,13 +406,14 @@ async function main() {
 <html lang="${escapeHtml(data.lang)}">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=${VIEWPORT.width}">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${escapeHtml(data.title || title)}</title>
 ${data.description ? `<meta name="description" content="${escapeHtml(data.description)}">\n` : ''}<link rel="stylesheet" href="${up}site.css">
 <link rel="stylesheet" href="${up}fonts.css">
+<script src="${up}site.js" defer></script>
 </head>
 <body style="background:${data.background}">
-<div class="page" style="height:${data.height}px">
+<div class="page" style="height:${data.height}px" data-width="${designWidth}">
 ${body}
 </div>
 </body>
@@ -430,6 +454,7 @@ ${body}
   }
   if (!only || faces.length) fs.writeFileSync(path.join(OUT, 'fonts.css'), faces.join('\n') + '\n')
   fs.writeFileSync(path.join(OUT, 'site.css'), SITE_CSS)
+  fs.writeFileSync(path.join(OUT, 'site.js'), SITE_JS)
 
   fs.writeFileSync(manifestFile, JSON.stringify({
     source: BASE,
