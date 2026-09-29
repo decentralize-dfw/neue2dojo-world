@@ -6,6 +6,8 @@
 
 The site's root, https://decentralize-dfw.github.io/neue2dojo-world/, opens Neue² Dojo.
 
+All of DFW's copied worlds are listed in [theaters/WORLDS.md](https://github.com/decentralize-dfw/theaters/blob/claude/serene-feynman-iuoz5y/WORLDS.md).
+
 This repository uses the same tools as [decentralize-dfw/theaters](https://github.com/decentralize-dfw/theaters); its README describes them in full. The GitHub Pages site runs each world entirely in the browser, with Hyperfy's own client and game server (npm packages `hyperfy-client`, `hyperfy-server`, `hyperfy-api`, `hyperfy-router` 2.40.0, MIT). Each world folder holds every file its world uses, stored under the same paths it has on Hyperfy's servers, plus `manifest.json` (every mirrored file with its source URL, size and sha256) and `world.json`.
 
 ## Adding a world
